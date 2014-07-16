@@ -1,0 +1,40 @@
+Xsession: X session started for colin at Thu Dec 12 21:03:10 UTC 2013
+X Error of failed request:  BadValue (integer parameter out of range for operation)
+  Major opcode of failed request:  109 (X_ChangeHosts)
+  Value in failed request:  0x5
+  Serial number of failed request:  6
+  Current serial number in output stream:  8
+localuser:colin being added to access control list
+Obt-Message: XKB extension is not present on the server or too old
+Obt-Message: Xinerama extension is not present on the server
+Obt-Message: XRandR extension is not present on the server
+Xlib:  extension "RANDR" missing on display ":1".
+Xlib:  extension "RANDR" missing on display ":1".
+Xlib:  extension "RANDR" missing on display ":1".
+Openbox-Message: Unable to find a valid menu file "/usr/share/lxde/openbox/menu.xml"
+Xsession: X session started for colin at Thu Dec 12 21:03:49 UTC 2013
+X Error of failed request:  BadValue (integer parameter out of range for operation)
+  Major opcode of failed request:  109 (X_ChangeHosts)
+  Value in failed request:  0x5
+  Serial number of failed request:  6
+  Current serial number in output stream:  8
+localuser:colin being added to access control list
+Obt-Message: XKB extension is not present on the server or too old
+Obt-Message: Xinerama extension is not present on the server
+Obt-Message: XRandR extension is not present on the server
+Xlib:  extension "RANDR" missing on display ":2".
+Xlib:  extension "RANDR" missing on display ":2".
+Xlib:  extension "RANDR" missing on display ":2".
+Openbox-Message: Unable to find a valid menu file "/usr/share/lxde/openbox/menu.xml"
+XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":2"
+      after 28 requests (28 known processed) with 1 events remaining.
+lxpanel: Fatal IO error 11 (Resource temporarily unavailable) on X server :2.
+XIO:  fatal IO error 104 (Connection reset by peer) on X server ":2"
+      after 1630 requests (1484 known processed) with 0 events remaining.
+lxpolkit: Fatal IO error 11 (Resource temporarily unavailable) on X server :2.
+XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":1"
+      after 28 requests (28 known processed) with 1 events remaining.
+XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":1"
+      after 1487 requests (1487 known processed) with 0 events remaining.
+lxpanel: Fatal IO error 11 (Resource temporarily unavailable) on X server :1.
+lxpolkit: Fatal IO error 11 (Resource temporarily unavailable) on X server :1.

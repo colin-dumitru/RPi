@@ -1,0 +1,63 @@
+import socket
+import json
+import time
+import lcd as LCD
+
+class Config:
+	sock = None
+
+def connect():
+	Config.sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+	Config.sock.connect(('localhost', 4028))
+
+def close():
+	Config.sock.shutdown(socket.SHUT_RDWR)
+	Config.sock.close()
+
+def get_summary():
+	Config.sock.send(json.dumps({'command': 'summary'}))
+	return read()
+
+def read():
+	response = ''
+	buffer = 'empty'
+
+	while buffer:
+		buffer = Config.sock.recv(4096)
+		response += buffer or ''
+
+	return response
+
+def print_summary(lcd, obj):
+	mhs = 'None' if len(obj['SUMMARY']) == 0 else str(obj['SUMMARY'][0]['MHS 5s'])
+	lw = 'None' if len(obj['SUMMARY']) == 0 else str(obj['SUMMARY'][0]['Local Work'])
+	hw = 'None' if len(obj['SUMMARY']) == 0 else str(obj['SUMMARY'][0]['Hardware Errors'])
+
+	lcd.line1('MHs/s: ' + mhs)
+	lcd.line2('LW:%s HE:%s' % (lw.ljust(4), hw))
+
+def main():
+	print ('Starting...')
+
+	lcd = LCD.LCD()
+	lcd.lcd_init()
+
+	while True:
+		try:
+			connect()
+
+			summary = get_summary()
+			obj = json.loads(summary[:-1])
+			print_summary(lcd, obj)
+
+			close()
+		except Exception as ex:
+			print(ex)
+			lcd.line1('ERROR')
+			lcd.line2(str(ex))
+			pass
+		time.sleep(5)
+
+
+if __name__ == '__main__':
+	main()

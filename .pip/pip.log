@@ -1,0 +1,501 @@
+------------------------------------------------------------
+/usr/bin/pip run on Wed Jul 16 17:27:50 2014
+Downloading/unpacking PyDrive
+
+  Getting page http://pypi.python.org/simple/PyDrive
+  URLs to search for versions for PyDrive:
+  * http://pypi.python.org/simple/PyDrive/
+  Getting page http://pypi.python.org/simple/PyDrive/
+  Analyzing links from page https://pypi.python.org/simple/PyDrive/
+    Found link https://pypi.python.org/packages/source/P/PyDrive/PyDrive-1.0.0.tar.gz#md5=b159ca19cfe9224d620c7ef619d2d437 (from https://pypi.python.org/simple/PyDrive/), version: 1.0.0
+    Found link https://pypi.python.org/packages/source/P/PyDrive/PyDrive-1.0.1.tar.gz#md5=87a8989e852c152161c14bbaac2b6c76 (from https://pypi.python.org/simple/PyDrive/), version: 1.0.1
+  Using version 1.0.1 (newest of versions: 1.0.1, 1.0.0)
+  Downloading from URL https://pypi.python.org/packages/source/P/PyDrive/PyDrive-1.0.1.tar.gz#md5=87a8989e852c152161c14bbaac2b6c76 (from https://pypi.python.org/simple/PyDrive/)
+  Running setup.py egg_info for package PyDrive
+
+    running egg_info
+    creating pip-egg-info/PyDrive.egg-info
+    writing requirements to pip-egg-info/PyDrive.egg-info/requires.txt
+    writing pip-egg-info/PyDrive.egg-info/PKG-INFO
+    writing top-level names to pip-egg-info/PyDrive.egg-info/top_level.txt
+    writing dependency_links to pip-egg-info/PyDrive.egg-info/dependency_links.txt
+    writing manifest file 'pip-egg-info/PyDrive.egg-info/SOURCES.txt'
+    warning: manifest_maker: standard file '-c' not found
+    
+
+    reading manifest file 'pip-egg-info/PyDrive.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    warning: no previously-included files matching '*.py[co]' found under directory '*'
+
+    writing manifest file 'pip-egg-info/PyDrive.egg-info/SOURCES.txt'
+Downloading/unpacking google-api-python-client>=1.2 (from PyDrive)
+
+  Getting page http://pypi.python.org/simple/google-api-python-client
+  URLs to search for versions for google-api-python-client>=1.2 (from PyDrive):
+  * http://pypi.python.org/simple/google-api-python-client/
+  Getting page http://pypi.python.org/simple/google-api-python-client/
+  Getting page http://code.google.com/p/google-api-python-client/
+  Analyzing links from page https://pypi.python.org/simple/google-api-python-client/
+    Found link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.0.tar.gz#md5=cd9e1af7c17e329ab29baca039717dc2 (from https://pypi.python.org/simple/google-api-python-client/), version: 1.0
+    Found link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.0.zip#md5=3db5053e17a531f971a1835819d3427e (from https://pypi.python.org/simple/google-api-python-client/), version: 1.0
+    Found link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.0alpha1.tar.gz#md5=ba9d13615717b74ad3d1187e6b239625 (from https://pypi.python.org/simple/google-api-python-client/), version: 1.0alpha1
+    Found link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.0alpha10.tar.gz#md5=74d8bebc81d0e621bec126911b3f6d55 (from https://pypi.python.org/simple/google-api-python-client/), version: 1.0alpha10
+    Found link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.0alpha11.tar.gz#md5=18c8193ef983dd285c1856e550b5d945 (from https://pypi.python.org/simple/google-api-python-client/), version: 1.0alpha11
+    Found link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.0alpha11.zip#md5=7990da65d59b331cf05e55ed06a6fa5e (from https://pypi.python.org/simple/google-api-python-client/), version: 1.0alpha11
+    Found link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.0alpha2.tar.gz#md5=d4b4d034738e129fc652629d96da4ad1 (from https://pypi.python.org/simple/google-api-python-client/), version: 1.0alpha2
+    Found link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.0alpha3.tar.gz#md5=35584480d60152c660ec76b2d8961875 (from https://pypi.python.org/simple/google-api-python-client/), version: 1.0alpha3
+    Found link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.0alpha4.tar.gz#md5=05d89391a7db8a61df6a5cc41d730748 (from https://pypi.python.org/simple/google-api-python-client/), version: 1.0alpha4
+    Found link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.0alpha5.tar.gz#md5=c649a555415fca53e241dd5ecf310eb7 (from https://pypi.python.org/simple/google-api-python-client/), version: 1.0alpha5
+    Found link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.0alpha6.tar.gz#md5=d4783667a8602fbb28110d6ec1c0db4a (from https://pypi.python.org/simple/google-api-python-client/), version: 1.0alpha6
+    Found link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.0alpha7.tar.gz#md5=37a4186b0c94ed89ec027e42a70d086e (from https://pypi.python.org/simple/google-api-python-client/), version: 1.0alpha7
+    Found link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.0alpha8.tar.gz#md5=30eb133209138accc8dfdd89e854ea5d (from https://pypi.python.org/simple/google-api-python-client/), version: 1.0alpha8
+    Found link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.0alpha9.tar.gz#md5=297f28c777e47aa7ebc3fa5280ca16e3 (from https://pypi.python.org/simple/google-api-python-client/), version: 1.0alpha9
+    Found link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.0b9.tar.gz#md5=c0ed8183593946aef162315a6f6f699f (from https://pypi.python.org/simple/google-api-python-client/), version: 1.0b9
+    Found link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.0b9.zip#md5=8407f3bfaaee6fbc26bcef0b5223a30a (from https://pypi.python.org/simple/google-api-python-client/), version: 1.0b9
+    Found link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.0beta1.tar.gz#md5=b1d2cf8e9b69d60e9c4de9b63cabfbef (from https://pypi.python.org/simple/google-api-python-client/), version: 1.0beta1
+    Found link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.0beta1.zip#md5=643bd1a7cbd8b27b8f80dca1a091da7c (from https://pypi.python.org/simple/google-api-python-client/), version: 1.0beta1
+    Found link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.0beta2.tar.gz#md5=0998bcec19f69c7130a36d0c1a91b100 (from https://pypi.python.org/simple/google-api-python-client/), version: 1.0beta2
+    Found link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.0beta2.zip#md5=74720847c1c99697ab1c4c3c1968cbd6 (from https://pypi.python.org/simple/google-api-python-client/), version: 1.0beta2
+    Found link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.0beta3.tar.gz#md5=836763538caee59c4e147782b90db5cf (from https://pypi.python.org/simple/google-api-python-client/), version: 1.0beta3
+    Found link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.0beta3.zip#md5=c98b9d2f331926233bca0768cef71b61 (from https://pypi.python.org/simple/google-api-python-client/), version: 1.0beta3
+    Found link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.0beta4.tar.gz#md5=b1246b7e49fe0b0a5ccb56c10b0f8ded (from https://pypi.python.org/simple/google-api-python-client/), version: 1.0beta4
+    Found link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.0beta4.zip#md5=64c7d8de2a434d1edaeeb87fb2884e07 (from https://pypi.python.org/simple/google-api-python-client/), version: 1.0beta4
+    Found link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.0beta5.tar.gz#md5=92e9b536d57cb5cd24d82cf364ba5bf6 (from https://pypi.python.org/simple/google-api-python-client/), version: 1.0beta5
+    Found link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.0beta5.zip#md5=172652a5e3ca5eee231c5ee232687221 (from https://pypi.python.org/simple/google-api-python-client/), version: 1.0beta5
+    Found link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.0beta5prerelease.tar.gz#md5=8c323b7b36edde7e4155245f6b535c71 (from https://pypi.python.org/simple/google-api-python-client/), version: 1.0beta5prerelease
+    Found link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.0beta5prerelease.zip#md5=f63c95db5577f20749e54e49c6bde1c3 (from https://pypi.python.org/simple/google-api-python-client/), version: 1.0beta5prerelease
+    Found link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.0beta5prerelease2.tar.gz#md5=20c8b4c4ece6cbab01e99311331eda47 (from https://pypi.python.org/simple/google-api-python-client/), version: 1.0beta5prerelease2
+    Found link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.0beta5prerelease2.zip#md5=03d70a48ae514b16bcf935277cf4bbc8 (from https://pypi.python.org/simple/google-api-python-client/), version: 1.0beta5prerelease2
+    Found link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.0beta6.tar.gz#md5=4f6d409a7e4b486809e6e3a6a6bc117c (from https://pypi.python.org/simple/google-api-python-client/), version: 1.0beta6
+    Found link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.0beta6.zip#md5=2a968832e9907441548183fd4b18f151 (from https://pypi.python.org/simple/google-api-python-client/), version: 1.0beta6
+    Found link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.0beta7.tar.gz#md5=7076824f786fb49ac34b7b3c78e44771 (from https://pypi.python.org/simple/google-api-python-client/), version: 1.0beta7
+    Found link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.0beta7.zip#md5=d9bacfcbf6426106236eb3b6f87e1174 (from https://pypi.python.org/simple/google-api-python-client/), version: 1.0beta7
+    Found link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.0beta8.tar.gz#md5=eec0b67d0f483f5524455cd46dcd3c88 (from https://pypi.python.org/simple/google-api-python-client/), version: 1.0beta8
+    Found link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.0beta8.zip#md5=6c8ec777a0d655a538de6600e58eb8df (from https://pypi.python.org/simple/google-api-python-client/), version: 1.0beta8
+    Found link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.0c1.tar.gz#md5=5af4b29bbaeb5f1cca86f3061e4f66bd (from https://pypi.python.org/simple/google-api-python-client/), version: 1.0c1
+    Found link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.0c1.zip#md5=7a46e94691726d07b9b88c54f7df86e3 (from https://pypi.python.org/simple/google-api-python-client/), version: 1.0c1
+    Found link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.0c2.tar.gz#md5=12a8480c05a38db7b213568fd573e051 (from https://pypi.python.org/simple/google-api-python-client/), version: 1.0c2
+    Found link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.0c2.zip#md5=690ab23ce0760257d35afd2eba34e394 (from https://pypi.python.org/simple/google-api-python-client/), version: 1.0c2
+    Found link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.0c3.tar.gz#md5=287ada550d97cce2e654b1337a54eebc (from https://pypi.python.org/simple/google-api-python-client/), version: 1.0c3
+    Found link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.0c3.zip#md5=843e7cb6e87b6fcfe9bb6c9e25b2d738 (from https://pypi.python.org/simple/google-api-python-client/), version: 1.0c3
+    Found link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.1.tar.gz#md5=3a7342a483398587e051ef8b73c20575 (from https://pypi.python.org/simple/google-api-python-client/), version: 1.1
+    Found link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.1.zip#md5=dbefbe5be5b1296fe0d86c33443a3c7d (from https://pypi.python.org/simple/google-api-python-client/), version: 1.1
+    Found link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.2.tar.gz#md5=031c69eacdd25606782d045b17f54934 (from https://pypi.python.org/simple/google-api-python-client/), version: 1.2
+    Found link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.2.zip#md5=451f35e22d107894826af4f8d3cab581 (from https://pypi.python.org/simple/google-api-python-client/), version: 1.2
+    Skipping link http://code.google.com/p/google-api-python-client/ (from https://pypi.python.org/simple/google-api-python-client/); not a file
+  Analyzing links from page http://code.google.com/p/google-api-python-client/
+    Skipping link http://www.gstatic.com/codesite/ph/images/phosting.ico (from http://code.google.com/p/google-api-python-client/); unknown archive format: .ico
+    Skipping link http://www.gstatic.com/codesite/ph/9305795658218611487/css/core.css (from http://code.google.com/p/google-api-python-client/); unknown archive format: .css
+    Skipping link http://www.gstatic.com/codesite/ph/9305795658218611487/css/ph_detail.css (from http://code.google.com/p/google-api-python-client/); unknown archive format: .css
+    Skipping link http://www.gstatic.com/codesite/ph/9305795658218611487/css/d_ie.css (from http://code.google.com/p/google-api-python-client/); unknown archive format: .css
+    Skipping link https://www.google.com/accounts/ServiceLogin?service=code&amp;ltmpl=phosting&amp;continue=http%3A%2F%2Fcode.google.com%2Fp%2Fgoogle-api-python-client%2F&amp;followup=http%3A%2F%2Fcode.google.com%2Fp%2Fgoogle-api-python-client%2F (from http://code.google.com/p/google-api-python-client/); not a file
+    Skipping link http://www.firefox.com (from http://code.google.com/p/google-api-python-client/); not a file
+    Skipping link http://www.google.com/chrome (from http://code.google.com/p/google-api-python-client/); not a file
+    Skipping link http://code.google.com/chrome/chromeframe/ (from http://code.google.com/p/google-api-python-client/); not a file
+    Skipping link http://code.google.com/p/google-api-python-client (from http://code.google.com/p/google-api-python-client/); not a file
+    Skipping link http://code.google.com/p/google-api-python-client/downloads/list (from http://code.google.com/p/google-api-python-client/); not a file
+    Skipping link http://code.google.com/p/google-api-python-client/w/list (from http://code.google.com/p/google-api-python-client/); not a file
+    Skipping link http://code.google.com/p/google-api-python-client/issues/list (from http://code.google.com/p/google-api-python-client/); not a file
+    Skipping link http://code.google.com/p/google-api-python-client/source/checkout (from http://code.google.com/p/google-api-python-client/); not a file
+    Skipping link http://code.google.com/p/google-api-python-client/people/list (from http://code.google.com/p/google-api-python-client/); not a file
+    Skipping link http://code.google.com/p/google-api-python-client/feeds (from http://code.google.com/p/google-api-python-client/); not a file
+    Skipping link http://www.apache.org/licenses/LICENSE-2.0 (from http://code.google.com/p/google-api-python-client/); unknown archive format: .0
+    Skipping link http://code.google.com/hosting/search?q=label:Python (from http://code.google.com/p/google-api-python-client/); not a file
+    Skipping link http://code.google.com/hosting/search?q=label:API (from http://code.google.com/p/google-api-python-client/); not a file
+    Skipping link http://code.google.com/hosting/search?q=label:Google (from http://code.google.com/p/google-api-python-client/); not a file
+    Skipping link http://code.google.com/u/jcgregorio@google.com/ (from http://code.google.com/p/google-api-python-client/); unknown archive format: .com
+    Skipping link http://code.google.com/u/114171861746793664535/ (from http://code.google.com/p/google-api-python-client/); not a file
+    Skipping link http://code.google.com/u/109016304695129264328/ (from http://code.google.com/p/google-api-python-client/); not a file
+    Skipping link http://code.google.com/u/106594466947176865075/ (from http://code.google.com/p/google-api-python-client/); not a file
+    Skipping link http://code.google.com/u/113609466358727998239/ (from http://code.google.com/p/google-api-python-client/); not a file
+    Skipping link http://code.google.com/u/111815493751521097215/ (from http://code.google.com/p/google-api-python-client/); not a file
+    Skipping link http://code.google.com/u/113482085710852847492/ (from http://code.google.com/p/google-api-python-client/); not a file
+    Skipping link http://code.google.com/u/100604066747317821367/ (from http://code.google.com/p/google-api-python-client/); not a file
+    Skipping link http://code.google.com/u/106703976254772448950/ (from http://code.google.com/p/google-api-python-client/); not a file
+    Skipping link http://code.google.com/u/112551196268481112795/ (from http://code.google.com/p/google-api-python-client/); not a file
+    Skipping link http://code.google.com/u/114623724487739567460/ (from http://code.google.com/p/google-api-python-client/); not a file
+    Skipping link http://code.google.com/u/100560146332165634799/ (from http://code.google.com/p/google-api-python-client/); not a file
+    Skipping link http://code.google.com/u/100300170331700190488/ (from http://code.google.com/p/google-api-python-client/); not a file
+    Skipping link http://code.google.com/u/102503275474224226074/ (from http://code.google.com/p/google-api-python-client/); not a file
+    Skipping link http://code.google.com/u/104317424573781909131/ (from http://code.google.com/p/google-api-python-client/); not a file
+    Found link http://google-api-python-client.googlecode.com/files/google-api-python-client-1.2.tar.gz (from http://code.google.com/p/google-api-python-client/), version: 1.2
+    Skipping link http://code.google.com/p/google-api-python-client/downloads/detail?name=google-api-python-client-1.2.tar.gz (from http://code.google.com/p/google-api-python-client/); not a file
+    Found link http://google-api-python-client.googlecode.com/files/google-api-python-client-1.2.zip (from http://code.google.com/p/google-api-python-client/), version: 1.2
+    Skipping link http://code.google.com/p/google-api-python-client/downloads/detail?name=google-api-python-client-1.2.zip (from http://code.google.com/p/google-api-python-client/); not a file
+    Found link http://google-api-python-client.googlecode.com/files/google-api-python-client-gae-1.2.zip (from http://code.google.com/p/google-api-python-client/), version: gae-1.2
+    Skipping link http://code.google.com/p/google-api-python-client/downloads/detail?name=google-api-python-client-gae-1.2.zip (from http://code.google.com/p/google-api-python-client/); not a file
+    Found link http://google-api-python-client.googlecode.com/files/google-api-python-client-samples-1.2.tar.gz (from http://code.google.com/p/google-api-python-client/), version: samples-1.2
+    Skipping link http://code.google.com/p/google-api-python-client/downloads/detail?name=google-api-python-client-samples-1.2.tar.gz (from http://code.google.com/p/google-api-python-client/); not a file
+    Found link http://google-api-python-client.googlecode.com/files/google-api-python-client-samples-1.2.zip (from http://code.google.com/p/google-api-python-client/), version: samples-1.2
+    Skipping link http://code.google.com/p/google-api-python-client/downloads/detail?name=google-api-python-client-samples-1.2.zip (from http://code.google.com/p/google-api-python-client/); not a file
+    Skipping link http://google-api-python-client.googlecode.com/files/oauth2client-1.2.tar.gz (from http://code.google.com/p/google-api-python-client/); wrong project name (not google-api-python-client)
+    Skipping link http://code.google.com/p/google-api-python-client/downloads/detail?name=oauth2client-1.2.tar.gz (from http://code.google.com/p/google-api-python-client/); not a file
+    Skipping link http://google-api-python-client.googlecode.com/files/oauth2client-1.2.zip (from http://code.google.com/p/google-api-python-client/); wrong project name (not google-api-python-client)
+    Skipping link http://code.google.com/p/google-api-python-client/downloads/detail?name=oauth2client-1.2.zip (from http://code.google.com/p/google-api-python-client/); not a file
+    Skipping link http://code.google.com/p/google-api-python-client/wiki/GettingStarted (from http://code.google.com/p/google-api-python-client/); not a file
+    Skipping link http://groups.google.com/group/google-api-python-client (from http://code.google.com/p/google-api-python-client/); not a file
+    Skipping link http://github.com/google/google-api-python-client (from http://code.google.com/p/google-api-python-client/); not a file
+    Skipping link http://github.com/google/oauth2client (from http://code.google.com/p/google-api-python-client/); not a file
+    Skipping link https://developers.google.com/api-client-library/python/start/get_started (from http://code.google.com/p/google-api-python-client/); not a file
+    Skipping link http://code.google.com/p/google-api-python-client/wiki/SampleApps (from http://code.google.com/p/google-api-python-client/); not a file
+    Skipping link http://google-api-python-client.googlecode.com/hg/docs/epy/frames.html (from http://code.google.com/p/google-api-python-client/); unknown archive format: .html
+    Skipping link http://code.google.com/p/google-api-python-client/wiki/BecomingAContributor (from http://code.google.com/p/google-api-python-client/); not a file
+    Skipping link http://code.google.com/p/google-api-python-client/w/list?q=label:DesignDoc (from http://code.google.com/p/google-api-python-client/); not a file
+    Skipping link http://stackoverflow.com/questions/tagged/google-api-python-client (from http://code.google.com/p/google-api-python-client/); not a file
+    Skipping link http://code.google.com/projecthosting/terms.html (from http://code.google.com/p/google-api-python-client/); unknown archive format: .html
+    Skipping link http://www.google.com/privacy.html (from http://code.google.com/p/google-api-python-client/); unknown archive format: .html
+    Skipping link http://code.google.com/p/support/ (from http://code.google.com/p/google-api-python-client/); not a file
+    Skipping link http://code.google.com/projecthosting/ (from http://code.google.com/p/google-api-python-client/); not a file
+  Ignoring link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.0.tar.gz#md5=cd9e1af7c17e329ab29baca039717dc2 (from https://pypi.python.org/simple/google-api-python-client/), version 1.0 doesn't match >=1.2
+  Ignoring link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.0.zip#md5=3db5053e17a531f971a1835819d3427e (from https://pypi.python.org/simple/google-api-python-client/), version 1.0 doesn't match >=1.2
+  Ignoring link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.0alpha1.tar.gz#md5=ba9d13615717b74ad3d1187e6b239625 (from https://pypi.python.org/simple/google-api-python-client/), version 1.0alpha1 doesn't match >=1.2
+  Ignoring link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.0alpha10.tar.gz#md5=74d8bebc81d0e621bec126911b3f6d55 (from https://pypi.python.org/simple/google-api-python-client/), version 1.0alpha10 doesn't match >=1.2
+  Ignoring link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.0alpha11.tar.gz#md5=18c8193ef983dd285c1856e550b5d945 (from https://pypi.python.org/simple/google-api-python-client/), version 1.0alpha11 doesn't match >=1.2
+  Ignoring link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.0alpha11.zip#md5=7990da65d59b331cf05e55ed06a6fa5e (from https://pypi.python.org/simple/google-api-python-client/), version 1.0alpha11 doesn't match >=1.2
+  Ignoring link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.0alpha2.tar.gz#md5=d4b4d034738e129fc652629d96da4ad1 (from https://pypi.python.org/simple/google-api-python-client/), version 1.0alpha2 doesn't match >=1.2
+  Ignoring link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.0alpha3.tar.gz#md5=35584480d60152c660ec76b2d8961875 (from https://pypi.python.org/simple/google-api-python-client/), version 1.0alpha3 doesn't match >=1.2
+  Ignoring link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.0alpha4.tar.gz#md5=05d89391a7db8a61df6a5cc41d730748 (from https://pypi.python.org/simple/google-api-python-client/), version 1.0alpha4 doesn't match >=1.2
+  Ignoring link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.0alpha5.tar.gz#md5=c649a555415fca53e241dd5ecf310eb7 (from https://pypi.python.org/simple/google-api-python-client/), version 1.0alpha5 doesn't match >=1.2
+  Ignoring link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.0alpha6.tar.gz#md5=d4783667a8602fbb28110d6ec1c0db4a (from https://pypi.python.org/simple/google-api-python-client/), version 1.0alpha6 doesn't match >=1.2
+  Ignoring link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.0alpha7.tar.gz#md5=37a4186b0c94ed89ec027e42a70d086e (from https://pypi.python.org/simple/google-api-python-client/), version 1.0alpha7 doesn't match >=1.2
+  Ignoring link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.0alpha8.tar.gz#md5=30eb133209138accc8dfdd89e854ea5d (from https://pypi.python.org/simple/google-api-python-client/), version 1.0alpha8 doesn't match >=1.2
+  Ignoring link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.0alpha9.tar.gz#md5=297f28c777e47aa7ebc3fa5280ca16e3 (from https://pypi.python.org/simple/google-api-python-client/), version 1.0alpha9 doesn't match >=1.2
+  Ignoring link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.0b9.tar.gz#md5=c0ed8183593946aef162315a6f6f699f (from https://pypi.python.org/simple/google-api-python-client/), version 1.0b9 doesn't match >=1.2
+  Ignoring link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.0b9.zip#md5=8407f3bfaaee6fbc26bcef0b5223a30a (from https://pypi.python.org/simple/google-api-python-client/), version 1.0b9 doesn't match >=1.2
+  Ignoring link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.0beta1.tar.gz#md5=b1d2cf8e9b69d60e9c4de9b63cabfbef (from https://pypi.python.org/simple/google-api-python-client/), version 1.0beta1 doesn't match >=1.2
+  Ignoring link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.0beta1.zip#md5=643bd1a7cbd8b27b8f80dca1a091da7c (from https://pypi.python.org/simple/google-api-python-client/), version 1.0beta1 doesn't match >=1.2
+  Ignoring link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.0beta2.tar.gz#md5=0998bcec19f69c7130a36d0c1a91b100 (from https://pypi.python.org/simple/google-api-python-client/), version 1.0beta2 doesn't match >=1.2
+  Ignoring link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.0beta2.zip#md5=74720847c1c99697ab1c4c3c1968cbd6 (from https://pypi.python.org/simple/google-api-python-client/), version 1.0beta2 doesn't match >=1.2
+  Ignoring link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.0beta3.tar.gz#md5=836763538caee59c4e147782b90db5cf (from https://pypi.python.org/simple/google-api-python-client/), version 1.0beta3 doesn't match >=1.2
+  Ignoring link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.0beta3.zip#md5=c98b9d2f331926233bca0768cef71b61 (from https://pypi.python.org/simple/google-api-python-client/), version 1.0beta3 doesn't match >=1.2
+  Ignoring link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.0beta4.tar.gz#md5=b1246b7e49fe0b0a5ccb56c10b0f8ded (from https://pypi.python.org/simple/google-api-python-client/), version 1.0beta4 doesn't match >=1.2
+  Ignoring link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.0beta4.zip#md5=64c7d8de2a434d1edaeeb87fb2884e07 (from https://pypi.python.org/simple/google-api-python-client/), version 1.0beta4 doesn't match >=1.2
+  Ignoring link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.0beta5.tar.gz#md5=92e9b536d57cb5cd24d82cf364ba5bf6 (from https://pypi.python.org/simple/google-api-python-client/), version 1.0beta5 doesn't match >=1.2
+  Ignoring link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.0beta5.zip#md5=172652a5e3ca5eee231c5ee232687221 (from https://pypi.python.org/simple/google-api-python-client/), version 1.0beta5 doesn't match >=1.2
+  Ignoring link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.0beta5prerelease.tar.gz#md5=8c323b7b36edde7e4155245f6b535c71 (from https://pypi.python.org/simple/google-api-python-client/), version 1.0beta5prerelease doesn't match >=1.2
+  Ignoring link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.0beta5prerelease.zip#md5=f63c95db5577f20749e54e49c6bde1c3 (from https://pypi.python.org/simple/google-api-python-client/), version 1.0beta5prerelease doesn't match >=1.2
+  Ignoring link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.0beta5prerelease2.tar.gz#md5=20c8b4c4ece6cbab01e99311331eda47 (from https://pypi.python.org/simple/google-api-python-client/), version 1.0beta5prerelease2 doesn't match >=1.2
+  Ignoring link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.0beta5prerelease2.zip#md5=03d70a48ae514b16bcf935277cf4bbc8 (from https://pypi.python.org/simple/google-api-python-client/), version 1.0beta5prerelease2 doesn't match >=1.2
+  Ignoring link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.0beta6.tar.gz#md5=4f6d409a7e4b486809e6e3a6a6bc117c (from https://pypi.python.org/simple/google-api-python-client/), version 1.0beta6 doesn't match >=1.2
+  Ignoring link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.0beta6.zip#md5=2a968832e9907441548183fd4b18f151 (from https://pypi.python.org/simple/google-api-python-client/), version 1.0beta6 doesn't match >=1.2
+  Ignoring link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.0beta7.tar.gz#md5=7076824f786fb49ac34b7b3c78e44771 (from https://pypi.python.org/simple/google-api-python-client/), version 1.0beta7 doesn't match >=1.2
+  Ignoring link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.0beta7.zip#md5=d9bacfcbf6426106236eb3b6f87e1174 (from https://pypi.python.org/simple/google-api-python-client/), version 1.0beta7 doesn't match >=1.2
+  Ignoring link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.0beta8.tar.gz#md5=eec0b67d0f483f5524455cd46dcd3c88 (from https://pypi.python.org/simple/google-api-python-client/), version 1.0beta8 doesn't match >=1.2
+  Ignoring link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.0beta8.zip#md5=6c8ec777a0d655a538de6600e58eb8df (from https://pypi.python.org/simple/google-api-python-client/), version 1.0beta8 doesn't match >=1.2
+  Ignoring link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.0c1.tar.gz#md5=5af4b29bbaeb5f1cca86f3061e4f66bd (from https://pypi.python.org/simple/google-api-python-client/), version 1.0c1 doesn't match >=1.2
+  Ignoring link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.0c1.zip#md5=7a46e94691726d07b9b88c54f7df86e3 (from https://pypi.python.org/simple/google-api-python-client/), version 1.0c1 doesn't match >=1.2
+  Ignoring link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.0c2.tar.gz#md5=12a8480c05a38db7b213568fd573e051 (from https://pypi.python.org/simple/google-api-python-client/), version 1.0c2 doesn't match >=1.2
+  Ignoring link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.0c2.zip#md5=690ab23ce0760257d35afd2eba34e394 (from https://pypi.python.org/simple/google-api-python-client/), version 1.0c2 doesn't match >=1.2
+  Ignoring link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.0c3.tar.gz#md5=287ada550d97cce2e654b1337a54eebc (from https://pypi.python.org/simple/google-api-python-client/), version 1.0c3 doesn't match >=1.2
+  Ignoring link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.0c3.zip#md5=843e7cb6e87b6fcfe9bb6c9e25b2d738 (from https://pypi.python.org/simple/google-api-python-client/), version 1.0c3 doesn't match >=1.2
+  Ignoring link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.1.tar.gz#md5=3a7342a483398587e051ef8b73c20575 (from https://pypi.python.org/simple/google-api-python-client/), version 1.1 doesn't match >=1.2
+  Ignoring link https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.1.zip#md5=dbefbe5be5b1296fe0d86c33443a3c7d (from https://pypi.python.org/simple/google-api-python-client/), version 1.1 doesn't match >=1.2
+  Ignoring link http://google-api-python-client.googlecode.com/files/google-api-python-client-gae-1.2.zip (from http://code.google.com/p/google-api-python-client/), version gae-1.2 doesn't match >=1.2
+  Ignoring link http://google-api-python-client.googlecode.com/files/google-api-python-client-samples-1.2.tar.gz (from http://code.google.com/p/google-api-python-client/), version samples-1.2 doesn't match >=1.2
+  Ignoring link http://google-api-python-client.googlecode.com/files/google-api-python-client-samples-1.2.zip (from http://code.google.com/p/google-api-python-client/), version samples-1.2 doesn't match >=1.2
+  Using version 1.2 (newest of versions: 1.2, 1.2, 1.2, 1.2)
+  Downloading from URL https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.2.tar.gz#md5=031c69eacdd25606782d045b17f54934 (from https://pypi.python.org/simple/google-api-python-client/)
+  Running setup.py egg_info for package google-api-python-client
+
+    running egg_info
+    creating pip-egg-info/google_api_python_client.egg-info
+    writing requirements to pip-egg-info/google_api_python_client.egg-info/requires.txt
+    writing pip-egg-info/google_api_python_client.egg-info/PKG-INFO
+    writing top-level names to pip-egg-info/google_api_python_client.egg-info/top_level.txt
+    writing dependency_links to pip-egg-info/google_api_python_client.egg-info/dependency_links.txt
+    writing manifest file 'pip-egg-info/google_api_python_client.egg-info/SOURCES.txt'
+    warning: manifest_maker: standard file '-c' not found
+    
+
+    reading manifest file 'pip-egg-info/google_api_python_client.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    warning: no files found matching '*.json' under directory 'apiclient'
+
+    writing manifest file 'pip-egg-info/google_api_python_client.egg-info/SOURCES.txt'
+  Source in ./build/google-api-python-client has version 1.2, which satisfies requirement google-api-python-client>=1.2 (from PyDrive)
+Requirement already satisfied (use --upgrade to upgrade): PyYAML>=3.0 in /usr/local/lib/python2.7/dist-packages (from PyDrive)
+
+Downloading/unpacking httplib2>=0.8 (from google-api-python-client>=1.2->PyDrive)
+
+  Getting page http://pypi.python.org/simple/httplib2
+  URLs to search for versions for httplib2>=0.8 (from google-api-python-client>=1.2->PyDrive):
+  * http://pypi.python.org/simple/httplib2/
+  Getting page http://pypi.python.org/simple/httplib2/
+  Getting page http://code.google.com/p/httplib2/
+  Could not fetch URL http://httplib2.googlecode.com/files/httplib2-0.7.0.tar.gz (from https://pypi.python.org/simple/httplib2/): HTTP Error 404: Not Found
+  Will skip URL http://httplib2.googlecode.com/files/httplib2-0.7.0.tar.gz when looking for download links for httplib2>=0.8 (from google-api-python-client>=1.2->PyDrive)
+  Could not fetch URL http://httplib2.googlecode.com/files/httplib2-0.7.1.tar.gz (from https://pypi.python.org/simple/httplib2/): HTTP Error 404: Not Found
+  Will skip URL http://httplib2.googlecode.com/files/httplib2-0.7.1.tar.gz when looking for download links for httplib2>=0.8 (from google-api-python-client>=1.2->PyDrive)
+  Could not fetch URL http://httplib2.googlecode.com/files/httplib2-0.7.2.tar.gz (from https://pypi.python.org/simple/httplib2/): HTTP Error 404: Not Found
+  Will skip URL http://httplib2.googlecode.com/files/httplib2-0.7.2.tar.gz when looking for download links for httplib2>=0.8 (from google-api-python-client>=1.2->PyDrive)
+  Could not fetch URL http://httplib2.googlecode.com/files/httplib2-0.7.3.tar.gz (from https://pypi.python.org/simple/httplib2/): HTTP Error 404: Not Found
+  Will skip URL http://httplib2.googlecode.com/files/httplib2-0.7.3.tar.gz when looking for download links for httplib2>=0.8 (from google-api-python-client>=1.2->PyDrive)
+  Could not fetch URL http://httplib2.googlecode.com/files/httplib2-0.7.4.tar.gz (from https://pypi.python.org/simple/httplib2/): HTTP Error 404: Not Found
+  Will skip URL http://httplib2.googlecode.com/files/httplib2-0.7.4.tar.gz when looking for download links for httplib2>=0.8 (from google-api-python-client>=1.2->PyDrive)
+  Could not fetch URL http://httplib2.googlecode.com/files/httplib2-0.7.5.tar.gz (from https://pypi.python.org/simple/httplib2/): HTTP Error 404: Not Found
+  Will skip URL http://httplib2.googlecode.com/files/httplib2-0.7.5.tar.gz when looking for download links for httplib2>=0.8 (from google-api-python-client>=1.2->PyDrive)
+  Could not fetch URL http://httplib2.googlecode.com/files/httplib2-0.7.6.tar.gz (from https://pypi.python.org/simple/httplib2/): HTTP Error 404: Not Found
+  Will skip URL http://httplib2.googlecode.com/files/httplib2-0.7.6.tar.gz when looking for download links for httplib2>=0.8 (from google-api-python-client>=1.2->PyDrive)
+  Could not fetch URL http://httplib2.googlecode.com/files/httplib2-0.7.7.tar.gz (from https://pypi.python.org/simple/httplib2/): HTTP Error 404: Not Found
+  Will skip URL http://httplib2.googlecode.com/files/httplib2-0.7.7.tar.gz when looking for download links for httplib2>=0.8 (from google-api-python-client>=1.2->PyDrive)
+  Could not fetch URL http://httplib2.googlecode.com/files/httplib2-0.8.tar.gz (from https://pypi.python.org/simple/httplib2/): HTTP Error 404: Not Found
+  Will skip URL http://httplib2.googlecode.com/files/httplib2-0.8.tar.gz when looking for download links for httplib2>=0.8 (from google-api-python-client>=1.2->PyDrive)
+  Getting page https://github.com/jcgregorio/httplib2
+  Analyzing links from page https://pypi.python.org/simple/httplib2/
+    Found link https://pypi.python.org/packages/source/h/httplib2/httplib2-0.7.3.tar.gz#md5=bf44ef622813ccb4d2acd277c4654806 (from https://pypi.python.org/simple/httplib2/), version: 0.7.3
+    Found link https://pypi.python.org/packages/source/h/httplib2/httplib2-0.7.3.zip#md5=2ab079fe79949f5bb44fae612b6cc527 (from https://pypi.python.org/simple/httplib2/), version: 0.7.3
+    Found link https://pypi.python.org/packages/source/h/httplib2/httplib2-0.7.4.tar.gz#md5=1ef27e7b9225fd0941e3134ce8b46128 (from https://pypi.python.org/simple/httplib2/), version: 0.7.4
+    Found link https://pypi.python.org/packages/source/h/httplib2/httplib2-0.7.4.zip#md5=37000b45eb3555c8b98faef0f400ddcf (from https://pypi.python.org/simple/httplib2/), version: 0.7.4
+    Found link https://pypi.python.org/packages/source/h/httplib2/httplib2-0.7.5.tar.gz#md5=6e4f2b01fdb6a7cc4da4043a4ff7ca08 (from https://pypi.python.org/simple/httplib2/), version: 0.7.5
+    Found link https://pypi.python.org/packages/source/h/httplib2/httplib2-0.7.5.zip#md5=3c5b12e40e7b962530535e22a6a6de07 (from https://pypi.python.org/simple/httplib2/), version: 0.7.5
+    Found link https://pypi.python.org/packages/source/h/httplib2/httplib2-0.7.6.tar.gz#md5=3f440fff00e0d2d3c2971693de283cdf (from https://pypi.python.org/simple/httplib2/), version: 0.7.6
+    Found link https://pypi.python.org/packages/source/h/httplib2/httplib2-0.7.6.zip#md5=a48e5e43ef3c75591046b4f4b7c15186 (from https://pypi.python.org/simple/httplib2/), version: 0.7.6
+    Found link https://pypi.python.org/packages/source/h/httplib2/httplib2-0.7.7.tar.gz#md5=b4ac0b1f2af72043496bf6b9a4c1757f (from https://pypi.python.org/simple/httplib2/), version: 0.7.7
+    Found link https://pypi.python.org/packages/source/h/httplib2/httplib2-0.7.7.zip#md5=de94c069e284e6e75dcfbb6ba0e17b52 (from https://pypi.python.org/simple/httplib2/), version: 0.7.7
+    Found link https://pypi.python.org/packages/source/h/httplib2/httplib2-0.8.tar.gz#md5=94cb8a3b196dfd19253c46609489d9f1 (from https://pypi.python.org/simple/httplib2/), version: 0.8
+    Found link https://pypi.python.org/packages/source/h/httplib2/httplib2-0.8.zip#md5=c92df9674a18f2b6e20ff2c5b7ada579 (from https://pypi.python.org/simple/httplib2/), version: 0.8
+    Found link https://pypi.python.org/packages/source/h/httplib2/httplib2-0.9.tar.gz#md5=09d8e8016911fc40e2e4c58f1aa3ec24 (from https://pypi.python.org/simple/httplib2/), version: 0.9
+    Found link https://pypi.python.org/packages/source/h/httplib2/httplib2-0.9.zip#md5=bdad6a844e0cb890b681fe7c811cfea5 (from https://pypi.python.org/simple/httplib2/), version: 0.9
+    Skipping link http://code.google.com/p/httplib2/ (from https://pypi.python.org/simple/httplib2/); not a file
+    Found link http://httplib2.googlecode.com/files/httplib2-0.7.0.tar.gz (from https://pypi.python.org/simple/httplib2/), version: 0.7.0
+    Found link http://httplib2.googlecode.com/files/httplib2-0.7.1.tar.gz (from https://pypi.python.org/simple/httplib2/), version: 0.7.1
+    Found link http://httplib2.googlecode.com/files/httplib2-0.7.2.tar.gz (from https://pypi.python.org/simple/httplib2/), version: 0.7.2
+    Found link http://httplib2.googlecode.com/files/httplib2-0.7.3.tar.gz (from https://pypi.python.org/simple/httplib2/), version: 0.7.3
+    Found link http://httplib2.googlecode.com/files/httplib2-0.7.4.tar.gz (from https://pypi.python.org/simple/httplib2/), version: 0.7.4
+    Found link http://httplib2.googlecode.com/files/httplib2-0.7.5.tar.gz (from https://pypi.python.org/simple/httplib2/), version: 0.7.5
+    Found link http://httplib2.googlecode.com/files/httplib2-0.7.6.tar.gz (from https://pypi.python.org/simple/httplib2/), version: 0.7.6
+    Found link http://httplib2.googlecode.com/files/httplib2-0.7.7.tar.gz (from https://pypi.python.org/simple/httplib2/), version: 0.7.7
+    Found link http://httplib2.googlecode.com/files/httplib2-0.8.tar.gz (from https://pypi.python.org/simple/httplib2/), version: 0.8
+    Skipping link https://github.com/jcgregorio/httplib2 (from https://pypi.python.org/simple/httplib2/); not a file
+    Found link http://httplib2.googlecode.com/svn/trunk/#egg=httplib2-dev (from https://pypi.python.org/simple/httplib2/), version: dev
+  Analyzing links from page http://code.google.com/p/httplib2/
+    Skipping link https://www.google.com/accounts/ServiceLogin?service=code&amp;ltmpl=phosting&amp;continue=http%3A%2F%2Fcode.google.com%2Fp%2Fhttplib2%2F&amp;followup=http%3A%2F%2Fcode.google.com%2Fp%2Fhttplib2%2F (from http://code.google.com/p/httplib2/); not a file
+    Skipping link http://code.google.com/p/httplib2 (from http://code.google.com/p/httplib2/); not a file
+    Skipping link http://code.google.com/p/httplib2/source/checkout (from http://code.google.com/p/httplib2/); not a file
+    Skipping link http://code.google.com/p/httplib2/people/list (from http://code.google.com/p/httplib2/); not a file
+    Skipping link http://code.google.com/p/httplib2/feeds (from http://code.google.com/p/httplib2/); not a file
+    Skipping link http://www.opensource.org/licenses/mit-license.php (from http://code.google.com/p/httplib2/); unknown archive format: .php
+    Skipping link http://code.google.com/hosting/search?q=label:python (from http://code.google.com/p/httplib2/); not a file
+    Skipping link http://code.google.com/hosting/search?q=label:http (from http://code.google.com/p/httplib2/); not a file
+    Skipping link http://code.google.com/hosting/search?q=label:python3 (from http://code.google.com/p/httplib2/); not a file
+    Skipping link http://code.google.com/u/joe.gregorio@gmail.com/ (from http://code.google.com/p/httplib2/); unknown archive format: .com
+    Skipping link http://code.google.com/u/sa3ruby@gmail.com/ (from http://code.google.com/p/httplib2/); unknown archive format: .com
+    Skipping link http://code.google.com/u/durin42/ (from http://code.google.com/p/httplib2/); not a file
+    Skipping link http://groups.google.com/group/httplib2-dev (from http://code.google.com/p/httplib2/); not a file
+    Skipping link http://groups.google.com/group/httplib2-commit (from http://code.google.com/p/httplib2/); not a file
+    Skipping link http://code.google.com/p/httplib2/#Httplib2 (from http://code.google.com/p/httplib2/); not a file
+  Analyzing links from page https://github.com/jcgregorio/httplib2
+    Skipping link https://github.com/opensearch.xml (from https://github.com/jcgregorio/httplib2); unknown archive format: .xml
+    Skipping link https://github.com/fluidicon.png (from https://github.com/jcgregorio/httplib2); unknown archive format: .png
+    Skipping link https://github.com/apple-touch-icon-114.png (from https://github.com/jcgregorio/httplib2); unknown archive format: .png
+    Skipping link https://github.com/apple-touch-icon-144.png (from https://github.com/jcgregorio/httplib2); unknown archive format: .png
+    Skipping link https://assets-cdn.github.com/ (from https://github.com/jcgregorio/httplib2); not a file
+    Skipping link https://ghconduit.com:25035 (from https://github.com/jcgregorio/httplib2); not a file
+    Skipping link https://assets-cdn.github.com/favicon.ico (from https://github.com/jcgregorio/httplib2); unknown archive format: .ico
+    Skipping link https://assets-cdn.github.com/assets/github-c534ad575b5bb8c3cc3dce9c571df7aa7400dbe9.css (from https://github.com/jcgregorio/httplib2); unknown archive format: .css
+    Skipping link https://assets-cdn.github.com/assets/github2-84a1b6179d461213455892ab983182bc2052a7b5.css (from https://github.com/jcgregorio/httplib2); unknown archive format: .css
+    Skipping link https://github.com/jcgregorio/httplib2/commits/master.atom (from https://github.com/jcgregorio/httplib2); unknown archive format: .atom
+    Skipping link https://github.com/jcgregorio/httplib2#start-of-content (from https://github.com/jcgregorio/httplib2); not a file
+    Skipping link https://github.com/ (from https://github.com/jcgregorio/httplib2); not a file
+    Skipping link https://github.com/join (from https://github.com/jcgregorio/httplib2); not a file
+    Skipping link https://github.com/login?return_to=%2Fjcgregorio%2Fhttplib2 (from https://github.com/jcgregorio/httplib2); not a file
+    Skipping link https://github.com/explore (from https://github.com/jcgregorio/httplib2); not a file
+    Skipping link https://github.com/features (from https://github.com/jcgregorio/httplib2); not a file
+    Skipping link https://enterprise.github.com/ (from https://github.com/jcgregorio/httplib2); not a file
+    Skipping link https://github.com/blog (from https://github.com/jcgregorio/httplib2); not a file
+    Skipping link https://github.com/jcgregorio/httplib2/stargazers (from https://github.com/jcgregorio/httplib2); not a file
+    Skipping link https://github.com/jcgregorio/httplib2/network (from https://github.com/jcgregorio/httplib2); not a file
+    Skipping link https://github.com/jcgregorio (from https://github.com/jcgregorio/httplib2); not a file
+    Skipping link https://github.com/jcgregorio/httplib2/issues (from https://github.com/jcgregorio/httplib2); not a file
+    Skipping link https://github.com/jcgregorio/httplib2/pulls (from https://github.com/jcgregorio/httplib2); not a file
+    Skipping link https://github.com/jcgregorio/httplib2/wiki (from https://github.com/jcgregorio/httplib2); not a file
+    Skipping link https://github.com/jcgregorio/httplib2/pulse (from https://github.com/jcgregorio/httplib2); not a file
+    Skipping link https://github.com/jcgregorio/httplib2/graphs (from https://github.com/jcgregorio/httplib2); not a file
+    Skipping link https://help.github.com/articles/which-remote-url-should-i-use (from https://github.com/jcgregorio/httplib2); not a file
+    Could not parse version from link: https://github.com/jcgregorio/httplib2/archive/master.zip (from https://github.com/jcgregorio/httplib2)
+    Skipping link https://github.com/jcgregorio/httplib2/archive/master.zip (from https://github.com/jcgregorio/httplib2); wrong project name (not httplib2)
+    Skipping link https://github.com/jcgregorio/httplib2/commits/master (from https://github.com/jcgregorio/httplib2); not a file
+    Skipping link https://github.com/jcgregorio/httplib2/branches (from https://github.com/jcgregorio/httplib2); not a file
+    Skipping link https://github.com/jcgregorio/httplib2/releases (from https://github.com/jcgregorio/httplib2); not a file
+    Skipping link https://github.com/jcgregorio/httplib2/graphs/contributors (from https://github.com/jcgregorio/httplib2); not a file
+    Skipping link https://github.com/jcgregorio/httplib2/search?l=python (from https://github.com/jcgregorio/httplib2); not a file
+    Skipping link https://github.com/jcgregorio/httplib2/search?l=css (from https://github.com/jcgregorio/httplib2); not a file
+    Skipping link https://github.com/jcgregorio/httplib2/search?l=tex (from https://github.com/jcgregorio/httplib2); not a file
+    Skipping link https://github.com/jcgregorio/httplib2/search?l=javascript (from https://github.com/jcgregorio/httplib2); not a file
+    Skipping link https://github.com/jcgregorio/httplib2/find/master (from https://github.com/jcgregorio/httplib2); not a file
+    Skipping link https://github.com/jcgregorio/httplib2/compare (from https://github.com/jcgregorio/httplib2); not a file
+    Skipping link https://github.com/jcgregorio/httplib2/tree/gh-pages (from https://github.com/jcgregorio/httplib2); not a file
+    Skipping link https://github.com/jcgregorio/httplib2/tree/master (from https://github.com/jcgregorio/httplib2); not a file
+    Skipping link https://github.com/jcgregorio/httplib2/tree/v0.9 (from https://github.com/jcgregorio/httplib2); unknown archive format: .9
+    Skipping link https://github.com/jcgregorio/httplib2/tree/0.9 (from https://github.com/jcgregorio/httplib2); unknown archive format: .9
+    Skipping link https://github.com/jcgregorio/httplib2/commit/df1cca48b204fc20fde1e49d7ad763394b01d931 (from https://github.com/jcgregorio/httplib2); not a file
+    Skipping link https://github.com/jcgregorio/httplib2/pull/276 (from https://github.com/jcgregorio/httplib2); not a file
+    Skipping link https://github.com/jcgregorio/httplib2/tree/master/doc (from https://github.com/jcgregorio/httplib2); not a file
+    Skipping link https://github.com/jcgregorio/httplib2/commit/ffc3d54f917aa2c07bdb0fcd2e51e217c6dbfbcb (from https://github.com/jcgregorio/httplib2); not a file
+    Skipping link https://github.com/jcgregorio/httplib2/tree/master/python2 (from https://github.com/jcgregorio/httplib2); not a file
+    Skipping link https://github.com/jcgregorio/httplib2/commit/e79528290bb60929f0b6a662c5832e9bd59c0dfb (from https://github.com/jcgregorio/httplib2); not a file
+    Skipping link https://github.com/jcgregorio/httplib2/tree/master/python3 (from https://github.com/jcgregorio/httplib2); not a file
+    Skipping link https://github.com/jcgregorio/httplib2/tree/master/ref (from https://github.com/jcgregorio/httplib2); not a file
+    Skipping link https://github.com/jcgregorio/httplib2/tree/master/test (from https://github.com/jcgregorio/httplib2); not a file
+    Skipping link https://github.com/jcgregorio/httplib2/blob/master/.gitignore (from https://github.com/jcgregorio/httplib2); not a file
+    Skipping link https://github.com/jcgregorio/httplib2/commit/df8bfce22cc07127164235da2850c3c5b0caae3f (from https://github.com/jcgregorio/httplib2); not a file
+    Skipping link https://github.com/jcgregorio/httplib2/blob/master/CHANGELOG (from https://github.com/jcgregorio/httplib2); not a file
+    Skipping link https://github.com/jcgregorio/httplib2/commit/5277a0e650abc6d9640fedc300f7c58007edb050 (from https://github.com/jcgregorio/httplib2); not a file
+    Skipping link https://github.com/jcgregorio/httplib2/blob/master/LICENSE (from https://github.com/jcgregorio/httplib2); not a file
+    Skipping link https://github.com/jcgregorio/httplib2/commit/7d1b88a3cf34774242bf4c0578c09c0092bb05d8 (from https://github.com/jcgregorio/httplib2); not a file
+    Skipping link https://github.com/jcgregorio/httplib2/blob/master/MANIFEST.in (from https://github.com/jcgregorio/httplib2); unknown archive format: .in
+    Skipping link https://github.com/jcgregorio/httplib2/commit/e5332f53aa354de9e7dcf96cb6e09a01a56a87a6 (from https://github.com/jcgregorio/httplib2); not a file
+    Skipping link https://github.com/jcgregorio/httplib2/blob/master/Makefile (from https://github.com/jcgregorio/httplib2); not a file
+    Skipping link https://github.com/jcgregorio/httplib2/commit/dfb0d4af883df6deb9e8fb707f688d11c43b07d9 (from https://github.com/jcgregorio/httplib2); not a file
+    Skipping link https://github.com/jcgregorio/httplib2/blob/master/README.md (from https://github.com/jcgregorio/httplib2); unknown archive format: .md
+    Skipping link https://github.com/jcgregorio/httplib2/commit/1c31470b54162320ba2628fc45ff9dd9f9738df1 (from https://github.com/jcgregorio/httplib2); not a file
+    Skipping link https://github.com/jcgregorio/httplib2/blob/master/index.html (from https://github.com/jcgregorio/httplib2); unknown archive format: .html
+    Skipping link https://github.com/jcgregorio/httplib2/blob/master/libhttplib2.tex (from https://github.com/jcgregorio/httplib2); unknown archive format: .tex
+    Skipping link https://github.com/jcgregorio/httplib2/blob/master/ref.tex (from https://github.com/jcgregorio/httplib2); unknown archive format: .tex
+    Skipping link https://github.com/jcgregorio/httplib2/commit/0055c04a1c50cd64c56be8eb4ebe6ca6cd29582f (from https://github.com/jcgregorio/httplib2); not a file
+    Skipping link https://github.com/jcgregorio/httplib2/blob/master/setup.py (from https://github.com/jcgregorio/httplib2); unknown archive format: .py
+    Skipping link https://github.com/jcgregorio/httplib2/commit/c7656eb1158e87ea97e536fb19efeaef6e6e2bbe (from https://github.com/jcgregorio/httplib2); not a file
+    Skipping link https://github.com/jcgregorio/httplib2#introduction (from https://github.com/jcgregorio/httplib2); not a file
+    Skipping link https://github.com/jcgregorio/httplib2#http-and-https (from https://github.com/jcgregorio/httplib2); not a file
+    Skipping link https://github.com/jcgregorio/httplib2#keep-alive (from https://github.com/jcgregorio/httplib2); not a file
+    Skipping link https://github.com/jcgregorio/httplib2#authentication (from https://github.com/jcgregorio/httplib2); not a file
+    Skipping link https://github.com/jcgregorio/httplib2#caching (from https://github.com/jcgregorio/httplib2); not a file
+    Skipping link https://github.com/jcgregorio/httplib2#all-methods (from https://github.com/jcgregorio/httplib2); not a file
+    Skipping link https://github.com/jcgregorio/httplib2#redirects (from https://github.com/jcgregorio/httplib2); not a file
+    Skipping link https://github.com/jcgregorio/httplib2#compression (from https://github.com/jcgregorio/httplib2); not a file
+    Skipping link https://github.com/jcgregorio/httplib2#lost-update-support (from https://github.com/jcgregorio/httplib2); not a file
+    Skipping link https://github.com/jcgregorio/httplib2#unit-tested (from https://github.com/jcgregorio/httplib2); not a file
+    Skipping link https://github.com/jcgregorio/httplib2#installation (from https://github.com/jcgregorio/httplib2); not a file
+    Skipping link https://github.com/jcgregorio/httplib2#usage (from https://github.com/jcgregorio/httplib2); not a file
+    Skipping link https://github.com/jcgregorio/httplib2/wiki/Examples (from https://github.com/jcgregorio/httplib2); not a file
+    Skipping link https://github.com/jcgregorio/httplib2/wiki/Examples-Python3 (from https://github.com/jcgregorio/httplib2); not a file
+    Skipping link https://status.github.com/ (from https://github.com/jcgregorio/httplib2); not a file
+    Skipping link http://developer.github.com (from https://github.com/jcgregorio/httplib2); not a file
+    Skipping link http://training.github.com (from https://github.com/jcgregorio/httplib2); not a file
+    Skipping link http://shop.github.com (from https://github.com/jcgregorio/httplib2); not a file
+    Skipping link https://github.com/about (from https://github.com/jcgregorio/httplib2); not a file
+    Skipping link https://github.com/site/terms (from https://github.com/jcgregorio/httplib2); not a file
+    Skipping link https://github.com/site/privacy (from https://github.com/jcgregorio/httplib2); not a file
+    Skipping link https://github.com/security (from https://github.com/jcgregorio/httplib2); not a file
+    Skipping link https://github.com/contact (from https://github.com/jcgregorio/httplib2); not a file
+  Ignoring link https://pypi.python.org/packages/source/h/httplib2/httplib2-0.7.3.tar.gz#md5=bf44ef622813ccb4d2acd277c4654806 (from https://pypi.python.org/simple/httplib2/), version 0.7.3 doesn't match >=0.8
+  Ignoring link https://pypi.python.org/packages/source/h/httplib2/httplib2-0.7.3.zip#md5=2ab079fe79949f5bb44fae612b6cc527 (from https://pypi.python.org/simple/httplib2/), version 0.7.3 doesn't match >=0.8
+  Ignoring link https://pypi.python.org/packages/source/h/httplib2/httplib2-0.7.4.tar.gz#md5=1ef27e7b9225fd0941e3134ce8b46128 (from https://pypi.python.org/simple/httplib2/), version 0.7.4 doesn't match >=0.8
+  Ignoring link https://pypi.python.org/packages/source/h/httplib2/httplib2-0.7.4.zip#md5=37000b45eb3555c8b98faef0f400ddcf (from https://pypi.python.org/simple/httplib2/), version 0.7.4 doesn't match >=0.8
+  Ignoring link https://pypi.python.org/packages/source/h/httplib2/httplib2-0.7.5.tar.gz#md5=6e4f2b01fdb6a7cc4da4043a4ff7ca08 (from https://pypi.python.org/simple/httplib2/), version 0.7.5 doesn't match >=0.8
+  Ignoring link https://pypi.python.org/packages/source/h/httplib2/httplib2-0.7.5.zip#md5=3c5b12e40e7b962530535e22a6a6de07 (from https://pypi.python.org/simple/httplib2/), version 0.7.5 doesn't match >=0.8
+  Ignoring link https://pypi.python.org/packages/source/h/httplib2/httplib2-0.7.6.tar.gz#md5=3f440fff00e0d2d3c2971693de283cdf (from https://pypi.python.org/simple/httplib2/), version 0.7.6 doesn't match >=0.8
+  Ignoring link https://pypi.python.org/packages/source/h/httplib2/httplib2-0.7.6.zip#md5=a48e5e43ef3c75591046b4f4b7c15186 (from https://pypi.python.org/simple/httplib2/), version 0.7.6 doesn't match >=0.8
+  Ignoring link https://pypi.python.org/packages/source/h/httplib2/httplib2-0.7.7.tar.gz#md5=b4ac0b1f2af72043496bf6b9a4c1757f (from https://pypi.python.org/simple/httplib2/), version 0.7.7 doesn't match >=0.8
+  Ignoring link https://pypi.python.org/packages/source/h/httplib2/httplib2-0.7.7.zip#md5=de94c069e284e6e75dcfbb6ba0e17b52 (from https://pypi.python.org/simple/httplib2/), version 0.7.7 doesn't match >=0.8
+  Ignoring link http://httplib2.googlecode.com/files/httplib2-0.7.0.tar.gz (from https://pypi.python.org/simple/httplib2/), version 0.7.0 doesn't match >=0.8
+  Ignoring link http://httplib2.googlecode.com/files/httplib2-0.7.1.tar.gz (from https://pypi.python.org/simple/httplib2/), version 0.7.1 doesn't match >=0.8
+  Ignoring link http://httplib2.googlecode.com/files/httplib2-0.7.2.tar.gz (from https://pypi.python.org/simple/httplib2/), version 0.7.2 doesn't match >=0.8
+  Ignoring link http://httplib2.googlecode.com/files/httplib2-0.7.3.tar.gz (from https://pypi.python.org/simple/httplib2/), version 0.7.3 doesn't match >=0.8
+  Ignoring link http://httplib2.googlecode.com/files/httplib2-0.7.4.tar.gz (from https://pypi.python.org/simple/httplib2/), version 0.7.4 doesn't match >=0.8
+  Ignoring link http://httplib2.googlecode.com/files/httplib2-0.7.5.tar.gz (from https://pypi.python.org/simple/httplib2/), version 0.7.5 doesn't match >=0.8
+  Ignoring link http://httplib2.googlecode.com/files/httplib2-0.7.6.tar.gz (from https://pypi.python.org/simple/httplib2/), version 0.7.6 doesn't match >=0.8
+  Ignoring link http://httplib2.googlecode.com/files/httplib2-0.7.7.tar.gz (from https://pypi.python.org/simple/httplib2/), version 0.7.7 doesn't match >=0.8
+  Ignoring link http://httplib2.googlecode.com/svn/trunk/#egg=httplib2-dev (from https://pypi.python.org/simple/httplib2/), version dev doesn't match >=0.8
+  Using version 0.9 (newest of versions: 0.9, 0.9, 0.8, 0.8, 0.8)
+  Downloading from URL https://pypi.python.org/packages/source/h/httplib2/httplib2-0.9.tar.gz#md5=09d8e8016911fc40e2e4c58f1aa3ec24 (from https://pypi.python.org/simple/httplib2/)
+  Running setup.py egg_info for package httplib2
+
+    running egg_info
+    creating pip-egg-info/httplib2.egg-info
+    writing pip-egg-info/httplib2.egg-info/PKG-INFO
+    writing top-level names to pip-egg-info/httplib2.egg-info/top_level.txt
+    writing dependency_links to pip-egg-info/httplib2.egg-info/dependency_links.txt
+    writing manifest file 'pip-egg-info/httplib2.egg-info/SOURCES.txt'
+    warning: manifest_maker: standard file '-c' not found
+    
+
+    reading manifest file 'pip-egg-info/httplib2.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    writing manifest file 'pip-egg-info/httplib2.egg-info/SOURCES.txt'
+  Source in ./build/httplib2 has version 0.9, which satisfies requirement httplib2>=0.8 (from google-api-python-client>=1.2->PyDrive)
+Installing collected packages: PyDrive, google-api-python-client, httplib2
+
+  Running setup.py install for PyDrive
+
+    Running command /usr/bin/python -c "import setuptools;__file__='/home/colin/build/PyDrive/setup.py';exec(compile(open(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --single-version-externally-managed --record /tmp/pip-f_E7we-record/install-record.txt
+    running install
+    running build
+    running build_py
+    creating build
+    creating build/lib.linux-armv6l-2.7
+    creating build/lib.linux-armv6l-2.7/pydrive
+    copying pydrive/files.py -> build/lib.linux-armv6l-2.7/pydrive
+    copying pydrive/__init__.py -> build/lib.linux-armv6l-2.7/pydrive
+    copying pydrive/drive.py -> build/lib.linux-armv6l-2.7/pydrive
+    copying pydrive/apiattr.py -> build/lib.linux-armv6l-2.7/pydrive
+    copying pydrive/settings.py -> build/lib.linux-armv6l-2.7/pydrive
+    copying pydrive/auth.py -> build/lib.linux-armv6l-2.7/pydrive
+    creating build/lib.linux-armv6l-2.7/pydrive/test
+    copying pydrive/test/__init__.py -> build/lib.linux-armv6l-2.7/pydrive/test
+    copying pydrive/test/test_file.py -> build/lib.linux-armv6l-2.7/pydrive/test
+    copying pydrive/test/test_filelist.py -> build/lib.linux-armv6l-2.7/pydrive/test
+    copying pydrive/test/test_oauth.py -> build/lib.linux-armv6l-2.7/pydrive/test
+    running install_lib
+    creating /usr/local/lib/python2.7/dist-packages/pydrive
+    error: could not create '/usr/local/lib/python2.7/dist-packages/pydrive': Permission denied
+
+    Complete output from command /usr/bin/python -c "import setuptools;__file__='/home/colin/build/PyDrive/setup.py';exec(compile(open(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --single-version-externally-managed --record /tmp/pip-f_E7we-record/install-record.txt:
+
+    running install
+
+running build
+
+running build_py
+
+creating build
+
+creating build/lib.linux-armv6l-2.7
+
+creating build/lib.linux-armv6l-2.7/pydrive
+
+copying pydrive/files.py -> build/lib.linux-armv6l-2.7/pydrive
+
+copying pydrive/__init__.py -> build/lib.linux-armv6l-2.7/pydrive
+
+copying pydrive/drive.py -> build/lib.linux-armv6l-2.7/pydrive
+
+copying pydrive/apiattr.py -> build/lib.linux-armv6l-2.7/pydrive
+
+copying pydrive/settings.py -> build/lib.linux-armv6l-2.7/pydrive
+
+copying pydrive/auth.py -> build/lib.linux-armv6l-2.7/pydrive
+
+creating build/lib.linux-armv6l-2.7/pydrive/test
+
+copying pydrive/test/__init__.py -> build/lib.linux-armv6l-2.7/pydrive/test
+
+copying pydrive/test/test_file.py -> build/lib.linux-armv6l-2.7/pydrive/test
+
+copying pydrive/test/test_filelist.py -> build/lib.linux-armv6l-2.7/pydrive/test
+
+copying pydrive/test/test_oauth.py -> build/lib.linux-armv6l-2.7/pydrive/test
+
+running install_lib
+
+creating /usr/local/lib/python2.7/dist-packages/pydrive
+
+error: could not create '/usr/local/lib/python2.7/dist-packages/pydrive': Permission denied
+
+----------------------------------------
+
+Command /usr/bin/python -c "import setuptools;__file__='/home/colin/build/PyDrive/setup.py';exec(compile(open(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --single-version-externally-managed --record /tmp/pip-f_E7we-record/install-record.txt failed with error code 1 in /home/colin/build/PyDrive
+
+Exception information:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/pip/basecommand.py", line 104, in main
+    status = self.run(options, args)
+  File "/usr/lib/python2.7/dist-packages/pip/commands/install.py", line 250, in run
+    requirement_set.install(install_options, global_options)
+  File "/usr/lib/python2.7/dist-packages/pip/req.py", line 1133, in install
+    requirement.install(install_options, global_options)
+  File "/usr/lib/python2.7/dist-packages/pip/req.py", line 577, in install
+    cwd=self.source_dir, filter_stdout=self._filter_install, show_stdout=False)
+  File "/usr/lib/python2.7/dist-packages/pip/__init__.py", line 256, in call_subprocess
+    % (command_desc, proc.returncode, cwd))
+InstallationError: Command /usr/bin/python -c "import setuptools;__file__='/home/colin/build/PyDrive/setup.py';exec(compile(open(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --single-version-externally-managed --record /tmp/pip-f_E7we-record/install-record.txt failed with error code 1 in /home/colin/build/PyDrive
