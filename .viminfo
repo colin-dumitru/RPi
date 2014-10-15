@@ -22,12 +22,45 @@
 # Registers:
 
 # File marks:
-'0  64  3  ~/scripts/server.py
-'1  43  0  ~/scripts/modules/ir.py
-'2  17  0  ~/scripts/ip.py
-'3  12  15  /tmp/strandtest.py
+'0  2  14  ~/server.sh
+'1  64  3  ~/scripts/server.py
+'2  43  0  ~/scripts/modules/ir.py
+'3  17  0  ~/scripts/ip.py
+'4  12  15  /tmp/strandtest.py
 
 # Jumplist (newest first):
+-'  2  14  ~/server.sh
+-'  1  0  ~/server.sh
+-'  64  3  ~/scripts/server.py
+-'  1  0  ~/scripts/server.py
+-'  43  0  ~/scripts/modules/ir.py
+-'  1  0  ~/scripts/modules/ir.py
+-'  17  0  ~/scripts/ip.py
+-'  1  0  ~/scripts/ip.py
+-'  12  15  /tmp/strandtest.py
+-'  1  0  /tmp/strandtest.py
+-'  12  15  /tmp/strandtest.py
+-'  1  0  /tmp/strandtest.py
+-'  17  0  ~/scripts/ip.py
+-'  1  0  ~/scripts/ip.py
+-'  12  15  /tmp/strandtest.py
+-'  1  0  /tmp/strandtest.py
+-'  12  15  /tmp/strandtest.py
+-'  1  0  /tmp/strandtest.py
+-'  43  0  ~/scripts/modules/ir.py
+-'  1  0  ~/scripts/modules/ir.py
+-'  17  0  ~/scripts/ip.py
+-'  1  0  ~/scripts/ip.py
+-'  12  15  /tmp/strandtest.py
+-'  1  0  /tmp/strandtest.py
+-'  12  15  /tmp/strandtest.py
+-'  1  0  /tmp/strandtest.py
+-'  17  0  ~/scripts/ip.py
+-'  1  0  ~/scripts/ip.py
+-'  12  15  /tmp/strandtest.py
+-'  1  0  /tmp/strandtest.py
+-'  12  15  /tmp/strandtest.py
+-'  1  0  /tmp/strandtest.py
 -'  64  3  ~/scripts/server.py
 -'  1  0  ~/scripts/server.py
 -'  43  0  ~/scripts/modules/ir.py
@@ -60,6 +93,13 @@
 -'  1  0  /tmp/strandtest.py
 
 # History of marks within files (newest to oldest):
+
+> ~/server.sh
+	"	2	14
+	^	2	15
+	.	2	15
+	+	1	9
+	+	2	15
 
 > ~/scripts/server.py
 	"	64	3

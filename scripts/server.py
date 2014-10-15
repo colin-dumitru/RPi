@@ -1,12 +1,14 @@
 import BaseHTTPServer
 import RPi.GPIO as GPIO
 import urllib
+import os.path
 
 from modules.light1 import *
 # from modules.notification import *
 from modules.ir import *
 from modules.mail import *
 from modules.notification2 import *
+from modules.temp import *
 
 modules = {}
 app = None
@@ -27,19 +29,34 @@ class App:
 
 class Server(BaseHTTPServer.BaseHTTPRequestHandler):       
 
+    def read_file(self, path):
+        relative_path = 'static' + path
+        
+        if not os.path.isfile(relative_path):
+            return None
+        
+        with open(relative_path, 'r') as file:
+            return file.read()
+
     def do_GET(self):
         global app
-
-        message = urllib.unquote( self.path[1:] )
         response = None
+        
+        print "-----------------------------\nRequest : %s" % self.path
 
-        print "\n--------------------\n message:\n   {}".format(message)
+        if self.path.startswith('/command/'):
+            response = app.send(urllib.unquote(self.path[9:])) 
+        elif self.path == '/':  
+            response = self.read_file('/index.html')
+        else:
+            response = self.read_file(self.path)
 
-        if message.startswith('command/'):
-            response = app.send(message[8:])       
+        if response:
+            self.send_response(200)
+        else:
+            self.send_response(404)
 
-        self.send_response(200)
-        self.send_header("Content-type", "text/plain")
+        self.send_header("Content-type", "text/html")
         self.end_headers()
         self.wfile.write(response)
 
@@ -65,6 +82,7 @@ if __name__ == "__main__":
     # register_module ( Notify() )
     register_module ( IR() )
     register_module ( Notify2() )
+    register_module ( Temp() )
     # register_module ( Email() )
 
     start_server()

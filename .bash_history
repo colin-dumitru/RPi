@@ -1,19 +1,3 @@
-sudo reboot
-cd scripts/
-vim clock.py 
-sudo python2.7 clock.py 
-cim clock.py 
-vim clock.py 
-sudo python2.7 clock.py 
-vim clock.py 
-tmux
-sudo python2.7
-sudo python2.7
-sudo sudo python2.7
-sudo python2.7
-sudo reboot
-sudo python2.7
-cd scripts/
 tmux
 exit
 exec 3<>/dev/tcp/192.168.0.102/9999
@@ -498,3 +482,19 @@ sudo shutdown -h now
 vim scripts/server.py 
 ls
 ./server.sh 
+cd ls
+ls
+sudo python2.7 strandtest.py 
+python2.7
+pwd
+git status
+git add .
+git commit -m 'Added Notify 2 module'
+git push
+pwd
+sudo nano /etc/modules
+sudo reboot
+sudo apt-get install python-smbus
+sudo apt-get install python-smbus
+sudo vim /etc/modprobe.d/raspi-blacklist.conf
+sudo reboot
