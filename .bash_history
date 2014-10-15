@@ -1,300 +1,3 @@
-$ aplay /usr/share/sounds/alsa/Front_Center.wav
-aplay /usr/share/sounds/alsa/Front_Center.wav
-cat /etc/modules-load.d/sound.conf 
-aplay -L
-sudo amixer cset numid=3 0
-sudo vim /etc/asound.conf 
-aplay test.wav 
-aplay -D hw:0:0 test.wav 
-aplay -D hw:0,0 test.wav 
-aplay -D hw:0,0 test.wav 
-aplay -D hw:0,0 test.wav 
-sudo vim /etc/asound.conf 
-sudo reboot
-cd abby
-aplay -D hw:0,0 test.wav 
-aplay -D hw:0,0 test.wav speaker-test -c 2
-speaker-test -c 2
-arecord test.wav
-fg
-aplay test.wav 
-aplay -D hw:0,0 test.wav
-alsamixer
-arecord test.wav
-aplay test.wav 
-play test.wav 
-alsamixer
- speaker-test -c 2
-sudo speaker-test -c 2
-speaker-test -c 2
-alsamixer
-speaker-test -c 2
-sudo rm /etc/asound.conf 
-sudo reboot
-alsamixer
-speaker-test -c 2
-arecord test.wav
-amixer
-alsamixer
-arecord test.wav
-speaker-test -c 2
-lsusb
-arecord -D hw0,0 test.wav
-arecord -D hw1,0 test.wav
-arecord -D hw:1,0 test.wav
-arecord hw:1,0 test.wav
-arecord -D hw:1,0 test.wav
-arecord -D hw:0,0 test.wav
-arecord -D hw:1,0 test.wav
-arecord cd -D hw:1,0 test.wav
-arecord -f cd -D hw:1,0 -d 20 text.wav
-aplay text.wav 
-cd abby
-vim speech.sh 
-./speech.sh 
-sudo apt-get install python-pocketsphinx
-sudo shutdown
-sudo shutdown -h
-sudo shutdown now
-vim /home/colin/.ssh/authorized_keys
-exit
-cat ~/.ssh/authorized_keys 
-exit
-ls
-chown -r .
-chown colin -r .
-chown colin -R .
-cat .ssh/authorized_keys 
-chmod 700 ~/.ssh
-chmod 600 ~/.ssh/authorized_keys
-exit
-fswebcam -r 1280x720 --no-banner test.jpg
-sudo fswebcam -r 1280x720 --no-banner test.jpg
-sudo fswebcam -r 1280x720 --no-banner   --set lights=on test.jpg
-sudo fswebcam -r 1280x720 --no-banner   --set lights=on test.png
-sudo apt-get install python-pocketsphinx
-ls
-cd abby
-ls
-rm *
-sudo apt-get install python3-pip
-service ssh stop
-/usr/sbin/sshd -d
-sudo /usr/sbin/sshd -d
-sudo service ssh stop
-sudo /usr/sbin/sshd -d
-service ssh start
-/usr/sbin/sshd -d -p 2222
-sudo /usr/sbin/sshd -d -p 2222
-sudo /usr/sbin/sshd -d -p 2222
-cat /home/colin/.ssh/authorized_keys
-cat /home/colin/.ssh/authorized_keys
-reset
-sudo /usr/sbin/sshd -d -p 2222
-chmod 666 /home/git/.ssh/authorized_keys
-chmod 666 /home/colin/.ssh/authorized_keys
-chmod 600 /home/colin/.ssh/authorized_keys
-sudo /usr/sbin/sshd -d -p 2222
-sudo /usr/sbin/sshd -d -p 2222
-vim ../.ssh/authorized_keys 
-sudo /usr/sbin/sshd -d -p 2222
-sudo /usr/sbin/sshd -d -p 2222
-ssh-keygen -l -f ~/.ssh/authorized_keys
-ssh-add
-eval `ssh-agent -s
-`
-ssh-add
-ssh-add colin@192.168.2.4:.ssh/id_rsa.pub
-cd ..
-ls
-cat dead.letter 
-rm dead.letter 
-ls
-rm test.*
-ls
-rm test.*
-rm text.*
-ls
-ls
-ls
-pwd
-cd ..
-ls
-cd colin
-ls
-la -a
-ls -a
-ls
-ssh-add id_rsa.pub 
-cat id_rsa.pub .ssh/authorized_keys 
-cat id_rsa.pub > .ssh/authorized_keys 
-ssh-keygen -l -f ~/.ssh/authorized_keys
-sudo reboot
-ls /var/log
-sudo /usr/sbin/sshd -d -p 2222
-sudo /usr/sbin/sshd -d -p 2222
-ls
-rm id_rsa.pub 
-ls
-ls
-cat .ssh/authorized_keys 
-cat id_rsa.pub > .ssh/authorized_keys 
-cat .ssh/authorized_keys 
-ssh-add
-cd abby
-pip-3.2 install pyaudio
-cp ../scripts/lcd.py .
-cat lcd.py 
-python3 lcd.py 
-python lcd.py 
-vim lcd.py 
-python3 lcd.py 
-sudo python3 lcd.py 
-pip-3.2 install pyaudio
-pip-3.2 install pyaudio
-sudo apt-get install portaudio19-dev
-pip-3.2 install pyaudio
-sudo pip-3.2 install pyaudio
-df -k
-df -h
-python3
-sudo python3 abby/speech.py 
-sudo python3 abby/speech.py 
-sudo python3 abby/speech.py 
-sudo python3 abby/speech.py 
-sudo python3 abby/speech.py 
-sudo python3 abby/speech.py 
-sudo python3 abby/speech.py 
-sudo python3 abby/speech.py 
-sudo python3 abby/speech.py 
-sudo python3 abby/speech.py 
-sudo python3 abby/speech.py 
-sudo python3 abby/speech.py 
-sudo python3 abby/speech.py 
-sudo python3 abby/speech.py 
-sudo python3 abby/speech.py 
-sudo python3 abby/speech.py 
-sudo python3 abby/speech.py 
-sudo python3 abby/speech.py 
-sudo python3 abby/speech.py 
-sudo python3 abby/speech.py 
-sudo python3 abby/speech.py 
-sudo python3 abby/speech.py 
-[A
-sudo python3 abby/speech.py 
-sudo python3 abby/speech.py 
-sudo python3 abby/speech.py 
-sudo python3 abby/speech.py 
-sudo python3 abby/speech.py 
-sudo python3 abby/speech.py 
-ls
-mv test.wave test.wav
-mplayer test.wav 
-sudo python3 abby/speech.py 
-mplayer test.wav 
-sudo python3 abby/speech.py 
-sudo python3 abby/speech.py 
-mplayer test.wav 
-sudo python3 abby/speech.py 
-mplayer test.wav 
-sudo python3 abby/speech.py 
-mplayer test.wav 
-sudo python3 abby/speech.py 
-mplayer test.wav 
-sudo python3 abby/speech.py 
-sudo python3 abby/speech.py 
-sudo python3 abby/speech.py 
-sudo python3 abby/speech.py 
-sudo python3 abby/speech.py 
-sudo python3 abby/speech.py 
-sudo python3 abby/speech.py 
-sudo python3 abby/speech.py 
-sudo python3 abby/speech.py 
-mplayer test.wav 
-sudo python3 abby/speech.py 
-mplayer test.wav 
-mplayer test.wav 
-sudo python3 abby/speech.py 
-sudo python3 abby/speech.py 
-sudo python3 abby/speech.py 
-sudo python3 abby/speech.py 
-mplayer test.wav 
-sudo python3 abby/speech.py 
-mplayer test.wav 
-sudo python3 abby/speech.py 
-sudo python3 abby/speech.py 
-sudo python3 abby/speech.py 
-sudo python3 abby/speech.py 
-mplayer 
-mplayer test.wav 
-mplayer test.wav 
-sudo python3 abby/speech.py 
-sudo python3 abby/speech.py 
-sudo python3 abby/speech.py 
-sudo python3 abby/speech.py 
-sudo python3 abby/speech.py 
-sudo python3 abby/speech.py 
-sudo python3 abby/speech.py 
-sudo python3 abby/speech.py 
-sudo python3 abby/speech.py 
-mplayer test.wav 
-mplayer test.wav 
-sudo python3 abby/speech.py 
-mplayer test.wav 
-sudo python3 abby/speech.py 
-sudo python3 abby/speech.py 
-sudo python3 abby/speech.py 
-mplayer test.wav 
-sudo python3 abby/speech.py 
-sudo python3 abby/speech.py 
-sudo python3 abby/speech.py 
-sudo python3 abby/speech.py 
-sudo python3 abby/speech.py 
-sudo python3 abby/speech.py 
-sudo python3 abby/speech.py 
-sudo python3 abby/speech.py 
-sudo python3 abby/speech.py 
-sudo python3 abby/speech.py 
-sudo python3 abby/speech.py 
-sudo python3 abby/speech.py 
-sudo python3 abby/speech.py 
-sudo python3 abby/speech.py 
-sudo python3 abby/speech.py 
-sudo python3 abby/speech.py 
-sudo python3 abby/speech.py 
-sudo python3 abby/speech.py 
-sudo python3 abby/speech.py 
-sudo reboot
-ls
-cd scripts/
-ls
-vim temp.py 
-sudo ./temp.py 
-sudo ./temp.py 
-vom ./temp.py 
-vim ./temp.py 
-cp temp.py clock.py
-ls
-cat temp.py 
-ls
-cat speech.sh 
-cat lcd.py
-vim clock.py 
-python2.7 clock.py 
-vim clock.py 
-python2.7 clock.py 
-ls
-vim clock.py 
-python2.7 clock.py 
-vim clock.py 
-python2.7 clock.py 
-vim clock.py 
-python2.7 clock.py 
-sudo python2.7 clock.py 
-vim clock.py 
-sudo python2.7 clock.py 
-vim clock.py 
-sudo python2.7 clock.py 
 sudo reboot
 cd scripts/
 vim clock.py 
@@ -497,4 +200,301 @@ python2.7
 ./server.sh 
 ./server.sh 
 ./server.sh 
+./server.sh 
+irrecord --list-namespace
+./server.sh 
+./server.sh 
+./server.sh 
+./server.sh 
+./server.sh 
+./server.sh 
+./server.sh 
+./server.sh 
+./server.sh 
+./server.sh 
+./server.sh 
+./server.sh 
+./server.sh 
+git init
+git remote add origin git@github.com:colin-dumitru/RPi.git
+git add .
+git stage
+touch .gitignore
+vim .gitignore 
+git add .
+git commit -m 'First version'
+git config --global user.email "colin.dumitru@gmail.com"
+git config --global user.name "Catalin(Colin) Dumitru"
+git commit -m 'First version'
+git push origin master
+ssh-keygen -t rsa -C "colin.dumitru@gmail.com"
+cat .ssh/id_rsa.pub 
+git push origin master
+vim .gitignore 
+git add .gitignore
+git commit -m 'Adding ssh to gitignore'
+git push
+tmux
+sudo less /var/log/syslog
+crontab -e
+sudo less /var/log/syslog
+ls
+rm Desktop/
+rm -r Desktop
+ls
+cd build/
+ls
+cd ..
+ls
+cat dead.letter 
+ls
+rm dead.letter 
+rm id_rsa.pub 
+rm mine.sh 
+mkdir sh
+cd sh
+vim testwifi.sh
+chmod +x
+chmod +x testwifi.sh 
+./testwifi.sh 
+ls
+sudo less /var/log/syslog
+pwd
+crontab
+crontab -e
+touch /home/colin/log/testwifi.log
+mkdir log
+/home/colin/log/testwifi.log
+cd ..
+mkdir log
+touch /home/colin/log/testwifi.log
+sudo tail -f /var/log/syslog
+crontab -e
+sudo tail -f /var/log/syslog
+crontab -e
+mail
+sudo apt-get install mail
+sudo tail -f /var/log/syslog
+tmux a
+tmux
+./server.sh 
+ps
+ps -e
+tmux a
+sudo less /var/log/syslog
+sudo poweroff
+./server.sh 
+sudo poweroff
+./server.sh 
+./server.sh 
+./server.sh 
+sudo reboot
+tmux
+tmux a
+tmux
+tmux a
+./server.sh 
+./server.sh 
+./server.sh 
+./server.sh 
+./server.sh 
+./server.sh 
+./server.sh 
+./server.sh 
+./server.sh 
+sudo poweroff
+./s
+./server.sh 
+./server.sh 
+./server.sh 
+./server.sh 
+exit
+tmux 
+sudo less /var/log/syslog
+tmux a
+./server.sh 
+./server.sh 
+./server.sh 
+./server.sh 
+reset
+./server.sh 
+./server.sh 
+tmux
+tmux a
+ls
+tmux a
+tmux a
+exit
+sudo poweroff
+./server.sh 
+./server.sh 
+./server.sh 
+sudo poweroff
+./server.sh 
+sudo poweroff
+./abby/
+./server.sh 
+./server.sh 
+tmux
+exit
+htop
+exit
+tmux a
+tmux a
+tmux a
+tmux a
+exit
+tmux a
+exit
+./server.sh 
+./server.sh 
+./server.sh 
+./server.sh 
+./server.sh 
+python2.7
+./server.sh 
+./server.sh 
+./server.sh 
+./server.sh 
+./server.sh 
+[A
+./server.sh 
+vim /opt/email_pass'
+vim /opt/email_pass
+python2.7
+./server.sh 
+./server.sh 
+./server.sh 
+reset
+./server.sh 
+reset; ./server.sh 
+reset; ./server.sh 
+reset; ./server.sh 
+reset; ./server.sh 
+reset; ./server.sh 
+reset; ./server.sh 
+reset; ./server.sh 
+reset; ./server.sh 
+reset; ./server.sh 
+reset; ./server.sh 
+reset; ./server.sh 
+reset; ./server.sh 
+reset; ./server.sh 
+reset; ./server.sh 
+python2.7
+reset; ./server.sh 
+python2.7
+reset; ./server.sh 
+reset; ./server.sh 
+reset; ./server.sh 
+python2.7
+reset; ./server.sh 
+reset; ./server.sh 
+reset; ./server.sh 
+reset; ./server.sh 
+python2.7
+python2.7
+tmux a
+tmux a
+./server.sh 
+./server.sh 
+./server.sh 
+./server.sh 
+./server.sh 
+./server.sh 
+./server.sh 
+./server.sh 
+./server.sh 
+./server.sh 
+./server.sh 
+./server.sh 
+./server.sh 
+tmux
+vim /opt/email_pass 
+vim /opt/email_pass 
+tzselect 
+vim .bashrc 
+vim .bashrc 
+time
+datetime
+time
+now
+tmux a
+date
+ntpdate
+sudo apt-get install ntpdate
+ntpdate
+sudo vim /etc/ntp.conf 
+sudo /etc/init.d/ntp restart
+date
+sudo vim /etc/ntp.conf 
+ntpdate
+ntpdate 0.debian.pool.ntp.org
+sudo ntpdate 0.debian.pool.ntp.org
+sudo ntpdate 0.debian.pool.ntp.org
+sudo ntpdate 0.debian.pool.ntp.org
+sudo ntpdate 0.debian.pool.ntp.org
+sudo ntpdate 0.debian.pool.ntp.org
+sudo ntpdate 0.debian.pool.ntp.org
+tmux a
+exit
+tmux a
+tmux
+uptime
+uptime
+uptime
+tmux
+uptime
+tmux a
+tmux
+exit
+tmux a
+uptime
+exit
+tmux a
+ls
+cd scripts/
+ls
+vim server.py 
+./server.sh 
+./server.sh 
+./server.sh 
+./server.sh 
+ls
+tmux a
+sudo shutdown -r
+sudo shutdown -r
+sudo shutdown -r now
+tmux
+cd scripts/
+ls
+vim server.py 
+tmux a
+tmux
+ls
+pwd
+cd ..
+ls
+ls -a
+vim .vimrc
+vim server.sh 
+vim scripts/server.py 
+exit
+cd scripts/
+ls
+cat modules/light1.py
+./server.sh 
+vim scripts/ip.py 
+vim scripts/modules/ir.py
+pwd
+irw
+ls -a
+ls -a
+cat lircd.conf 
+less lircd.conf 
+exit
+sudo shutdown -h
+sudo shutdown -h now
+vim scripts/server.py 
+ls
 ./server.sh 

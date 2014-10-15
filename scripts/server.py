@@ -1,9 +1,12 @@
-import SocketServer
+import BaseHTTPServer
 import RPi.GPIO as GPIO
+import urllib
 
 from modules.light1 import *
-from modules.notification import *
+# from modules.notification import *
 from modules.ir import *
+from modules.mail import *
+from modules.notification2 import *
 
 modules = {}
 app = None
@@ -19,20 +22,26 @@ class App:
         module = modules.get(module_name)
 
         if module:
-            module.process(params)
+            return module.process(params)
 
 
-class Server(SocketServer.BaseRequestHandler):       
+class Server(BaseHTTPServer.BaseHTTPRequestHandler):       
 
-    def handle(self):
+    def do_GET(self):
         global app
 
-        # self.request is the TCP socket connected to the client
-        self.data = self.request.recv(1024).strip()
-        print "\n--------------------\n{} wrote:".format(self.client_address[0])
-        print self.data
+        message = urllib.unquote( self.path[1:] )
+        response = None
 
-        app.send(self.data)       
+        print "\n--------------------\n message:\n   {}".format(message)
+
+        if message.startswith('command/'):
+            response = app.send(message[8:])       
+
+        self.send_response(200)
+        self.send_header("Content-type", "text/plain")
+        self.end_headers()
+        self.wfile.write(response)
 
 
 def register_module(module):
@@ -40,11 +49,11 @@ def register_module(module):
     modules[module.name] = module
 
 def start_server():
-    HOST, PORT = "192.168.0.150", 9999
+    HOST, PORT = "192.168.0.150", 80
 
     print "Listenting on port %d" % PORT
 
-    server = SocketServer.TCPServer((HOST, PORT), Server)
+    server = BaseHTTPServer.HTTPServer((HOST, PORT), Server)
     server.serve_forever()
 
 if __name__ == "__main__":
@@ -53,7 +62,9 @@ if __name__ == "__main__":
     app = App()
 
     register_module ( Light1() )
-    register_module ( Notify() )
+    # register_module ( Notify() )
     register_module ( IR() )
+    register_module ( Notify2() )
+    # register_module ( Email() )
 
     start_server()

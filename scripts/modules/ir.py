@@ -8,24 +8,24 @@ class IR(threading.Thread):
 		threading.Thread.__init__(self)
 		self.daemon = True
 		self.name = 'ir'
-		self.light = False
 
 	def init(self, app):
 		self.app = app
 
 		self.start()
 
-	def toggle_light(self):
-		if self.light:
-			self.app.send( 'light1:true')
-		else:
-			self.app.send( 'light1:false')
-
-		self.light = not self.light
+	def toggle_light(self, times):
+		self.app.send( 'light1:toggle:%d' % times)
 
 	def run_command(self, key):
 		if key == 'KEY_A':
-			self.toggle_light()
+			self.toggle_light(1)
+
+		if key == 'KEY_B':
+			self.toggle_light(4)
+
+		if key == 'KEY_POWER':
+			self.toggle_light(0)
 
 	def process_key(self, key):
 		self.run_command(key)

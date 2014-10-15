@@ -2,24 +2,16 @@
 # You may edit it if you're careful!
 
 # Value of 'encoding' when this file was written
-*encoding=utf-8
+*encoding=latin1
 
 
 # hlsearch on (H) or off (h):
 ~h
-# Last Search Pattern:
-~MSle0~/bin
-
 # Command Line History (newest to oldest):
 :wq
 :q
-:q!
-:d
-:eq
 
 # Search String History (newest to oldest):
-?/bin/bash
-?/home
 
 # Expression History (newest to oldest):
 
@@ -28,260 +20,61 @@
 # Input Line History (newest to oldest):
 
 # Registers:
-"1	LINE	0
-	        subprocess.call(["sudo", "/etc/init.d/networking", "restart"])
-"2	LINE	0
-	        subprocess.call(['sudo', '/usr/sbin/dhcpd', '-q', '-cf', '/etc/dhcp/dhcpd.conf', '-pf', '/var/run/dhcpd.pid'])
-"3	LINE	0
-	        subprocess.call(["sudo", "/etc/init.d/networking", "restart"])
-"4	LINE	0
-	
-"5	LINE	0
-	        outputFile.close()
-"6	LINE	0
-	        outputFile.flush()
-"7	LINE	0
-	        outputFile.write(text)
-"8	LINE	0
-	        outputFile = open("/etc/network/interfaces","w")
-"9	LINE	0
-	        text = open("broadcast.txt", "r").read()
-"q	CHAR	0
-	
-""-	CHAR	0
-	 
 
 # File marks:
-'0  1  10  ~/.gitignore
-'1  22  12  ~/scripts/server.py
-'2  20  0  ~/scripts/server.py
-'3  1  0  ~/scripts/server.py
-'4  39  25  ~/scripts/server.py
-'5  1  0  ~/scripts/clock.py
-'6  28  36  ~/scripts/clock.py
-'7  30  12  ~/scripts/clock.py
-'8  21  7  ~/scripts/clock.py
-'9  6  0  ~/scripts/clock.py
+'0  64  3  ~/scripts/server.py
+'1  43  0  ~/scripts/modules/ir.py
+'2  17  0  ~/scripts/ip.py
+'3  12  15  /tmp/strandtest.py
 
 # Jumplist (newest first):
--'  1  10  ~/.gitignore
--'  22  12  ~/scripts/server.py
+-'  64  3  ~/scripts/server.py
 -'  1  0  ~/scripts/server.py
--'  20  0  ~/scripts/server.py
--'  39  25  ~/scripts/server.py
--'  1  0  ~/scripts/clock.py
--'  28  36  ~/scripts/clock.py
--'  30  12  ~/scripts/clock.py
--'  21  7  ~/scripts/clock.py
--'  6  0  ~/scripts/clock.py
--'  3  9  ~/scripts/clock.py
--'  18  10  ~/scripts/clock.py
--'  11  0  ~/scripts/temp.py
--'  1  0  ~/scripts/temp.py
--'  19  0  ~/scripts/temp.py
--'  3  5  ~/scripts/speech.sh
--'  1  0  ~/scripts/speech.sh
--'  104  4  ~/abby/lcd.py
--'  1  0  ~/abby/lcd.py
--'  1  391  ~/.ssh/authorized_keys
--'  4  37  ~/abby/speech.sh
--'  1  0  ~/abby/speech.sh
--'  1  0  ~/voice/speech.sh
--'  10  10  ~/voice/speech.sh
--'  4  20  ~/voice/speech.sh
--'  2  0  ~/voice/speech.sh
--'  30  0  ~/voice/speech.sh
--'  18  0  /opt/jasper/boot/wifi.py
--'  9  0  /opt/jasper/boot/wifi.py
--'  1  0  /opt/jasper/boot/wifi.py
--'  8  22  /opt/jasper/boot/wifi.py
--'  10  0  /opt/jasper/boot/wifi.py
--'  1  20  /opt/jasper/boot/boot.py
--'  33  24  /opt/jasper/boot/boot.py
--'  31  24  /opt/jasper/boot/boot.py
--'  60  32  /opt/jasper/boot/boot.py
--'  58  32  /opt/jasper/boot/boot.py
--'  5  0  /opt/jasper/boot/boot.py
--'  1  0  /opt/jasper/boot.py
--'  32  8  /opt/jasper/boot/boot.py
--'  6  6  /opt/jasper/boot/boot.sh
--'  1  0  /opt/jasper/boot/boot.sh
--'  6  6  /opt/jasper/boot/boot.sh
--'  1  0  /opt/jasper/boot/boot.sh
--'  6  6  /opt/jasper/boot/boot.sh
--'  1  0  /opt/jasper/boot/boot.sh
--'  6  6  /opt/jasper/boot/boot.sh
--'  1  0  /opt/jasper/boot/boot.sh
--'  1  0  /opt/jasper/boot.py
--'  6  6  /opt/jasper/boot/boot.sh
--'  1  0  /opt/jasper/boot/boot.sh
--'  6  6  /opt/jasper/boot/boot.sh
--'  1  0  /opt/jasper/boot/boot.sh
--'  6  6  /opt/jasper/boot/boot.sh
--'  1  0  /opt/jasper/boot/boot.sh
--'  6  6  /opt/jasper/boot/boot.sh
--'  1  0  /opt/jasper/boot/boot.sh
--'  1  20  /opt/jasper/boot/boot.py
--'  33  24  /opt/jasper/boot/boot.py
--'  31  24  /opt/jasper/boot/boot.py
--'  60  32  /opt/jasper/boot/boot.py
--'  58  32  /opt/jasper/boot/boot.py
--'  5  0  /opt/jasper/boot/boot.py
--'  1  0  /opt/jasper/boot.py
--'  32  8  /opt/jasper/boot/boot.py
--'  6  6  /opt/jasper/boot/boot.sh
--'  1  0  /opt/jasper/boot/boot.sh
--'  6  6  /opt/jasper/boot/boot.sh
--'  1  0  /opt/jasper/boot/boot.sh
--'  6  6  /opt/jasper/boot/boot.sh
--'  1  0  /opt/jasper/boot/boot.sh
--'  6  6  /opt/jasper/boot/boot.sh
--'  1  0  /opt/jasper/boot/boot.sh
--'  1  0  /opt/jasper/boot.py
--'  6  6  /opt/jasper/boot/boot.sh
--'  1  0  /opt/jasper/boot/boot.sh
--'  6  6  /opt/jasper/boot/boot.sh
--'  1  0  /opt/jasper/boot/boot.sh
--'  6  6  /opt/jasper/boot/boot.sh
--'  1  0  /opt/jasper/boot/boot.sh
--'  6  6  /opt/jasper/boot/boot.sh
--'  1  0  /opt/jasper/boot/boot.sh
--'  1  20  /opt/jasper/boot/boot.py
--'  33  24  /opt/jasper/boot/boot.py
--'  31  24  /opt/jasper/boot/boot.py
--'  60  32  /opt/jasper/boot/boot.py
--'  58  32  /opt/jasper/boot/boot.py
--'  5  0  /opt/jasper/boot/boot.py
--'  1  0  /opt/jasper/boot.py
--'  32  8  /opt/jasper/boot/boot.py
--'  6  6  /opt/jasper/boot/boot.sh
--'  1  0  /opt/jasper/boot/boot.sh
--'  6  6  /opt/jasper/boot/boot.sh
--'  1  0  /opt/jasper/boot/boot.sh
--'  6  6  /opt/jasper/boot/boot.sh
--'  1  0  /opt/jasper/boot/boot.sh
--'  6  6  /opt/jasper/boot/boot.sh
--'  1  0  /opt/jasper/boot/boot.sh
+-'  43  0  ~/scripts/modules/ir.py
+-'  1  0  ~/scripts/modules/ir.py
+-'  17  0  ~/scripts/ip.py
+-'  1  0  ~/scripts/ip.py
+-'  12  15  /tmp/strandtest.py
+-'  1  0  /tmp/strandtest.py
+-'  12  15  /tmp/strandtest.py
+-'  1  0  /tmp/strandtest.py
+-'  17  0  ~/scripts/ip.py
+-'  1  0  ~/scripts/ip.py
+-'  12  15  /tmp/strandtest.py
+-'  1  0  /tmp/strandtest.py
+-'  12  15  /tmp/strandtest.py
+-'  1  0  /tmp/strandtest.py
+-'  43  0  ~/scripts/modules/ir.py
+-'  1  0  ~/scripts/modules/ir.py
+-'  17  0  ~/scripts/ip.py
+-'  1  0  ~/scripts/ip.py
+-'  12  15  /tmp/strandtest.py
+-'  1  0  /tmp/strandtest.py
+-'  12  15  /tmp/strandtest.py
+-'  1  0  /tmp/strandtest.py
+-'  17  0  ~/scripts/ip.py
+-'  1  0  ~/scripts/ip.py
+-'  12  15  /tmp/strandtest.py
+-'  1  0  /tmp/strandtest.py
+-'  12  15  /tmp/strandtest.py
+-'  1  0  /tmp/strandtest.py
 
 # History of marks within files (newest to oldest):
 
-> ~/.gitignore
-	"	1	10
-	^	1	11
-	.	1	0
-	+	1	0
-
 > ~/scripts/server.py
-	"	22	12
-	^	22	13
-	.	1	0
-	+	39	0
-	+	1	0
+	"	64	3
+	^	64	4
+	.	64	4
+	+	64	4
 
-> ~/scripts/clock.py
-	"	1	0
-	^	28	37
-	.	28	37
-	+	3	12
-	+	28	24
-	+	28	24
-	+	28	3
-	+	27	3
-	+	26	3
-	+	20	0
-	+	20	0
-	+	19	3
-	+	28	21
-	+	28	21
-	+	18	11
-	+	19	0
-	+	3	0
-	+	21	8
-	+	27	65
-	+	28	24
-	+	28	21
-	+	31	0
-	+	3	11
-	+	23	14
-	+	27	7
-	+	28	7
-	+	26	7
-	+	25	2
-	+	24	36
-	+	28	34
-	+	30	15
-	+	4	10
-	+	30	12
-	+	28	37
+> ~/scripts/modules/ir.py
+	"	43	0
 
-> ~/scripts/temp.py
-	"	11	0
+> ~/scripts/ip.py
+	"	17	0
 
-> ~/scripts/speech.sh
-	"	3	5
-	^	3	6
-	.	3	6
-	+	3	6
-	+	1	11
-	+	3	6
-
-> ~/abby/lcd.py
-	"	104	4
-	^	104	5
-	.	104	5
-	+	104	5
-
-> ~/.ssh/authorized_keys
-	"	1	391
-	^	1	392
-	.	1	362
-	+	1	342
-	+	1	0
-	+	1	362
-
-> ~/abby/speech.sh
-	"	4	37
-	.	4	18
-	+	4	18
-
-> ~/voice/speech.sh
-	"	1	0
-	^	10	11
-	.	11	0
-	+	29	30
-	+	19	30
-	+	10	41
-	+	4	0
-	+	2	0
-	+	3	0
-	+	4	20
-	+	7	4
-	+	11	0
-
-> /opt/jasper/boot/wifi.py
-	"	18	0
-	^	18	1
-	.	18	0
-	+	8	23
-	+	9	0
-	+	9	0
-	+	9	0
-	+	10	0
-	+	9	4
-	+	12	5
-	+	15	4
-	+	15	5
-	+	19	0
-	+	18	0
-
-> /opt/jasper/boot/boot.py
-	"	1	20
-
-> /opt/jasper/boot.py
-	"	1	0
-
-> /opt/jasper/boot/boot.sh
-	"	6	6
-	^	6	7
-	.	1	6
-	+	1	6
+> /tmp/strandtest.py
+	"	12	15
+	^	12	16
+	.	12	15
+	+	12	15
