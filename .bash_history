@@ -1,53 +1,3 @@
-tmux
-exit
-exec 3<>/dev/tcp/192.168.0.102/9999
-echo -e "GET /\n" >&3
-ls
-cd scripts/
-vim server.py
-sudo python2.7 server.py 
-vim server.py 
-sudo python2.7 server.py 
-vim server.py 
-sudo python2.7 server.py 
-vim server.py 
-vim server.py 
-sudo python2.7
-sudo python2.7 server.py 
-tmux
-tmux a
-exit
-rpi-update 
-suo rpi-update 
-sudo rpi-update 
-ntpdate
-sudo apt-get install ntpdate
-ping www.google.com
-sudo vim /etc/network/interface
-sudo vim /etc/network/interfaces
-sudo mv /etc/network/interface /etc/network/interface_bak
-sudo mv /etc/network/interfaces /etc/network/interfaces_bak
-sudo vim /etc/network/interfaces
-sudo vim /etc/network/interfaces
-ifconfig
-ls
-sudo network restart
-sudo service network restart
-sudo networking restart
-sudo /etc/init.d/networking restart
-ifconfig
-less /etc/network/interfaces
-sudo reboot
-ping www.google.com
-sudo rpi-update 
-sudo reboot
-sudo cat /dev/lirc0
-tmux a
-tmux
-exit
-cd /var/log
-ls
-ls -lrt
 less lastlog
 less wtmp
 less daemon.log
@@ -498,3 +448,53 @@ sudo apt-get install python-smbus
 sudo apt-get install python-smbus
 sudo vim /etc/modprobe.d/raspi-blacklist.conf
 sudo reboot
+sudo i2cdetect -y 1
+i2cget 
+i2cget 1 48
+sudo i2cget 1 48
+sudo i2cget 1 0x48
+sudo i2cget 1 0x48 w
+sudo i2cget 1 0x48
+sudo i2cget -y 1 0x48
+sudo i2cget -y 1 0x48
+sudo i2cget -y 1 0x48
+sudo i2cget -y 1 0x48 0 b
+sudo i2cget -y 1 0x48 0 w
+pwd
+git add .
+git commit -m 'added temp module'
+git push
+./server.sh 
+./server.sh 
+./server.sh 
+./server.sh 
+./server.sh 
+./server.sh 
+./server.sh 
+./server.sh 
+./server.sh 
+./server.sh 
+tmux
+./server.sh 
+./server.sh 
+./server.sh 
+./server.sh 
+./server.sh 
+./server.sh 
+./server.sh 
+./server.sh 
+./server.sh 
+./server.sh 
+./server.sh 
+./server.sh 
+./server.sh 
+./server.sh 
+./server.sh 
+./server.sh 
+./server.sh 
+./server.sh 
+./server.sh 
+./server.sh 
+./server.sh 
+git diff HEAD
+exit
