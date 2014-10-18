@@ -15,7 +15,7 @@ class Thermostat(threading.Thread):
         self.daemon = True
         self.name = 'thermostat'
         self.state = False
-        self.ideal_temp = 21
+        self.ideal_temp = 20
         self.lock = threading.Lock()
     
     def init(self, app):
@@ -41,7 +41,7 @@ class Thermostat(threading.Thread):
         while True:
             self.update_temp()
             
-            time.sleep(5)
+            time.sleep(60)
     
     def turn_off(self):
         self.state = False
@@ -62,6 +62,8 @@ class Thermostat(threading.Thread):
         self.lock.acquire()
         self.ideal_temp = float(temp)
         self.lock.release()
+        
+        self.update_temp()
     
     def process(self, params):
         if params == 'get_state':
@@ -72,6 +74,4 @@ class Thermostat(threading.Thread):
         
         if params.startswith('set_temp'):
             self.set_ideal_temp(params)
-        
-        if params.startswith('toggle'):
-            self.toggle(int(params[7:]))
+            return self.ideal_temp

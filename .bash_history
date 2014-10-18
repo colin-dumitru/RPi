@@ -1,25 +1,3 @@
-sudo vim /etc/modprobe.d/rt2800usb.conf 
-cd /tmp
-sudo apt-get install linux-headers-$(uname -r) linux-headers-generic build-essential
-wget http://www.elektronenblitz63.de/downloads/DPO_GPL_RT5592STA_LinuxSTA_v2.6.0.0_20120326_patched.tar.gz
-tar xvf DPO_GPL_RT5592STA_LinuxSTA_v2.6.0.0_20120326_patched.tar.gz
-cd DPO_GPL_RT5592STA_LinuxSTA_v2.6.0.0_20120326_patched/
-sudo make
-sudo apt-get upgrade
-ping www.google.com
-sudo apt-get upgrade
-sudo apt-get update --fix-missing
-sudo apt-get upgrade
-sudo apt-get upgrade
-./server.sh 
-sudo less /var/log/syslog
-tzselect 
-sudo less /var/log/syslog
-sudo tail -f /var/log/syslog
-pip install PyDrive
-sudo tail -f /var/log/syslog
-sudo ./server.sh 
-sudo less /var/log/syslog
 ls
 sudo ./server.sh 
 sudo ./server.sh 
@@ -498,3 +476,25 @@ fg
 man fg
 exit
 logout
+git add .
+git commit -m 'Added thermostat module'
+git push
+tmux a
+./server.sh 
+netstat -tulpn
+sudo netstat -tulpn
+sudo kill -9 5346
+./server.sh 
+./server.sh 
+./server.sh 
+./server.sh 
+./server.sh 
+ps
+jobs
+fg
+jobs -l
+kill -9 5411
+./server.sh 
+./server.sh 
+./server.sh 
+tmux

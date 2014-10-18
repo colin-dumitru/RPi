@@ -52,7 +52,7 @@ class Server(BaseHTTPServer.BaseHTTPRequestHandler):
         else:
             response = self.read_file(self.path)
 
-        if response:
+        if response is not None:
             self.send_response(200)
         else:
             self.send_response(404)

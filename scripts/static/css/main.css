@@ -1,0 +1,120 @@
+html {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.main_content {
+	margin: 50px auto;
+	width: 750px;
+}
+
+.primary_weather,
+.secondary_weather{
+	display: inline-block;
+	margin: 10px;
+}
+
+#current_weather {
+	width: 185px;
+	text-align: center;
+	color: rgb(144, 96, 96);
+}
+
+#current_weather .weather {
+	margin-left: 20px;
+}
+
+#current_weather .info i {
+	width: 20px;
+}
+
+#current_weather .weather {
+	font-size: 115px;
+	color: rgb(77, 77, 77);
+}
+
+#current_weather .wi-thermometer{
+	font-size: 40px;
+}
+
+#current_weather .temp {
+	font-size: 40px;		
+}
+
+.secondary_weather {
+	width: 150px;
+	text-align: center;
+	color: rgb(144, 96, 96);
+}
+
+.secondary_weather .weather {
+	margin-left: 20px;
+}
+
+.secondary_weather .info i {
+	width: 20px;
+}
+
+.secondary_weather .weather {
+	font-size: 70px;
+	color: rgb(77, 77, 77);
+}
+
+.secondary_weather .wi-thermometer{
+	font-size: 30px;
+}
+
+.secondary_weather .temp {
+	font-size: 30px;		
+}
+
+.thermostat{
+	font-size: 50px;
+	font-size: 50px;
+	border: 1px solid black;
+	border-radius: 36px;
+	box-shadow: 0 0 10px rgb(142, 142, 142);
+}
+
+.current_temp{
+	display: inline;
+	width: 135px;
+	background-color: rgb(66, 162, 203);
+	margin: 0;
+	border-radius: 36px 0 0 36px;
+	color: white;
+	padding-left: 30px;
+	padding-right: 10px;
+}
+
+.ideal_temp{
+	margin-left: 30px;
+	display: inline;
+	width: 50px;
+	color: rgb(79, 76, 76);
+}
+
+#temp_up{
+	display: inline-block;
+	width: 0px;
+	height: 0px;
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+	border-bottom: 40px solid #4C4C4C;	
+}
+
+#temp_down{
+	display: inline-block;
+	width: 0px;
+	height: 0px;
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+	border-top: 40px solid #4C4C4C;	
+}
+
+.arrow{
+	cursor: pointer;
+}
+
+.arrow:hover{
+	border-color: grey;
+}
