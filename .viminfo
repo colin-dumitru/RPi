@@ -8,8 +8,8 @@
 # hlsearch on (H) or off (h):
 ~h
 # Command Line History (newest to oldest):
-:wq
 :q
+:wq
 
 # Search String History (newest to oldest):
 
@@ -22,13 +22,16 @@
 # Registers:
 
 # File marks:
-'0  2  14  ~/server.sh
-'1  64  3  ~/scripts/server.py
-'2  43  0  ~/scripts/modules/ir.py
-'3  17  0  ~/scripts/ip.py
-'4  12  15  /tmp/strandtest.py
+'0  9  0  ~/scripts/modules/light1.py
+'1  2  14  ~/server.sh
+'2  64  3  ~/scripts/server.py
+'3  43  0  ~/scripts/modules/ir.py
+'4  17  0  ~/scripts/ip.py
+'5  12  15  /tmp/strandtest.py
 
 # Jumplist (newest first):
+-'  9  0  ~/scripts/modules/light1.py
+-'  1  0  ~/scripts/modules/light1.py
 -'  2  14  ~/server.sh
 -'  1  0  ~/server.sh
 -'  64  3  ~/scripts/server.py
@@ -91,8 +94,46 @@
 -'  1  0  /tmp/strandtest.py
 -'  12  15  /tmp/strandtest.py
 -'  1  0  /tmp/strandtest.py
+-'  2  14  ~/server.sh
+-'  1  0  ~/server.sh
+-'  64  3  ~/scripts/server.py
+-'  1  0  ~/scripts/server.py
+-'  43  0  ~/scripts/modules/ir.py
+-'  1  0  ~/scripts/modules/ir.py
+-'  17  0  ~/scripts/ip.py
+-'  1  0  ~/scripts/ip.py
+-'  12  15  /tmp/strandtest.py
+-'  1  0  /tmp/strandtest.py
+-'  12  15  /tmp/strandtest.py
+-'  1  0  /tmp/strandtest.py
+-'  17  0  ~/scripts/ip.py
+-'  1  0  ~/scripts/ip.py
+-'  12  15  /tmp/strandtest.py
+-'  1  0  /tmp/strandtest.py
+-'  12  15  /tmp/strandtest.py
+-'  1  0  /tmp/strandtest.py
+-'  43  0  ~/scripts/modules/ir.py
+-'  1  0  ~/scripts/modules/ir.py
+-'  17  0  ~/scripts/ip.py
+-'  1  0  ~/scripts/ip.py
+-'  12  15  /tmp/strandtest.py
+-'  1  0  /tmp/strandtest.py
+-'  12  15  /tmp/strandtest.py
+-'  1  0  /tmp/strandtest.py
+-'  17  0  ~/scripts/ip.py
+-'  1  0  ~/scripts/ip.py
+-'  12  15  /tmp/strandtest.py
+-'  1  0  /tmp/strandtest.py
+-'  12  15  /tmp/strandtest.py
+-'  1  0  /tmp/strandtest.py
+-'  64  3  ~/scripts/server.py
+-'  1  0  ~/scripts/server.py
+-'  43  0  ~/scripts/modules/ir.py
 
 # History of marks within files (newest to oldest):
+
+> ~/scripts/modules/light1.py
+	"	9	0
 
 > ~/server.sh
 	"	2	14

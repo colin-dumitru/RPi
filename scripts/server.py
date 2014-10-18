@@ -9,6 +9,7 @@ from modules.ir import *
 from modules.mail import *
 from modules.notification2 import *
 from modules.temp import *
+from modules.thermostat import *
 
 modules = {}
 app = None
@@ -83,6 +84,7 @@ if __name__ == "__main__":
     register_module ( IR() )
     register_module ( Notify2() )
     register_module ( Temp() )
+    register_module ( Thermostat() )
     # register_module ( Email() )
 
     start_server()

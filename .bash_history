@@ -1,38 +1,3 @@
-less lastlog
-less wtmp
-less daemon.log
-sudo less daemon.log
-sudo less syslogg
-sudo less syslog
-tmux
-exit
-less /etc/network/interfaces
-sudo vim /etc/network/interfaces
-less /var/log/syslog
-sudo less /var/log/syslog
-sudo less /var/log/syslog.1
-time
-date
-sudo less /var/log/syslog
-cd /var/log/
-ls -lrt
-less auth.logauth.log
-LESS auth.log
-less auth.log
-sudo less auth.log
-exit
-tmux a
-tmux
-exit
-tmux
-tmux
-man ping
-exit
-ifconfig
-iwconfig wlan0 power off 
-iwconfig wlan0
-sudo iwconfig wlan0 power off 
-iwconfig wlan0
 sudo vim /etc/modprobe.d/rt2800usb.conf 
 cd /tmp
 sudo apt-get install linux-headers-$(uname -r) linux-headers-generic build-essential
@@ -498,3 +463,38 @@ tmux
 ./server.sh 
 git diff HEAD
 exit
+tmux a
+pwd
+./server.sh 
+./server.sh 
+./server.sh 
+./server.sh 
+./server.sh 
+./server.sh 
+git add .
+git commit -m 'Fixes for how the light notifications are sent'
+git push
+tmux
+vim scripts/modules/light1.py
+tmux a
+./server.sh 
+./server.sh 
+./server.sh 
+./server.sh 
+./server.sh 
+./server.sh 
+./server.sh 
+./server.sh 
+./server.sh 
+./server.sh 
+./server.sh 
+./server.sh 
+./server.sh 
+./server.sh 
+kill
+jobs
+man jobs
+fg
+man fg
+exit
+logout
