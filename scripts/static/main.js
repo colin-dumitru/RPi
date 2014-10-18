@@ -27,6 +27,9 @@ function updateWeather() {
 	      updateHour(data.hourly.data[0], $('#secondary_weather_1'));
 	      updateHour(data.hourly.data[1], $('#secondary_weather_2'));
 	      updateHour(data.hourly.data[2], $('#secondary_weather_3'));
+		  
+		  $('.main_content').fadeIn(400);
+		  $('.spinner').fadeOut(400);
 	  }
 	});
 }
