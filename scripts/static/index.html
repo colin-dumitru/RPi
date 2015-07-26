@@ -1,12 +1,12 @@
 <html>
 
 <head>
-	
 	<link rel="stylesheet" href="css/weather-icons.min.css">
 	<link rel="stylesheet" href="css/main.css">
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 	
-	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
 	<script type="text/javascript" src="main.js"></script>	
 </head>
 
@@ -19,7 +19,7 @@
 	  <div class="rect5"></div>
 	</div>
 	
-	<div class='main_content' style='display: none;'>
+	<div class='main_content'>
 		<div>
 			<div id='current_weather' class='primary_weather'>
 				<i class="weather wi wi-day-lightning"></i>				
@@ -124,6 +124,9 @@
 			
 			<div id='temp_up' class='arrow'></div>
 			<div id='temp_down' class='arrow'></div>
+		</div>
+
+		<div id="temp_chart">
 		</div>
 	</div>
 </body>

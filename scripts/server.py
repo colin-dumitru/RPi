@@ -2,6 +2,7 @@ import BaseHTTPServer
 import RPi.GPIO as GPIO
 import urllib
 import os.path
+import json
 
 from modules.light1 import *
 # from modules.notification import *
@@ -46,7 +47,7 @@ class Server(BaseHTTPServer.BaseHTTPRequestHandler):
         print "-----------------------------\nRequest : %s" % self.path
 
         if self.path.startswith('/command/'):
-            response = app.send(urllib.unquote(self.path[9:])) 
+            response = json.dumps(app.send(urllib.unquote(self.path[9:])))
         elif self.path == '/':  
             response = self.read_file('/index.html')
         else:
